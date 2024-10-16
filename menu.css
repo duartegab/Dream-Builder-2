@@ -47,7 +47,7 @@ body {
 }
 
 .bg-wrapper {
-    width: 100%;
+    width: 150%;
     height: 100%;
     background-image: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8));
 }
@@ -86,14 +86,14 @@ body {
         margin: 0 auto;
         padding-top: 1em;
         .main-logo {
-            margin-left: -330px;
+            margin-left: -180px;
             float: left;
             font-weight: 700;
             font-size: 1.875em;
         }
         .main-menu {
             float: right;
-            margin-right: -400px;
+            margin-right: -280px;
             text-align: center;
             li {
                 display: inline-block;
