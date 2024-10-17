@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Builder 2 - Jogo da Memória</title>
+    <link rel="stylesheet" href="/menu.css">
+    <link rel="stylesheet" href="/pages/pages/pages/jogomemoria_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="/pages/pages/pages/jogomemoria_script.js"></script>
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="header-wrapper">
+      <div class="main-logo">Dream Builder 2</div>
+      <nav>
+        <ul class="main-menu">
+          <li><a href="/menu.html">Menu Inicial</a></li>
+          <li><a href="#jogo-memoria">Jogue</a></li>
+          <li><a href="/pages/subpages/pausas/danca.html">Dance</a></li>
+          <li><a href="/pages/subpages/pausas/meditacao.html">Medite</a></li>
+          <li><a href="#"><span class="fa fa-shopping-cart33"></span></a></li>
+          <li><a href="#"><span class="fa fa-search33"></span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="section-1">
+    <div class="content-slider">
+      <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+      <input type="radio" id="banner2" class="sec-1-input" name="banner">
+      <input type="radio" id="banner3" class="sec-1-input" name="banner">
+      <input type="radio" id="banner4" class="sec-1-input" name="banner">
+
+      <div class="slider">
+        <div id="top-banner-1" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Analise</h2>
+            <h1>todos<br>os erros</h1>
+          </div>
+        </div>
+        <div id="top-banner-2" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Estabeleça</h2>
+            <h1>métodos<br>melhores</h1>
+          </div>
+        </div>
+        <div id="top-banner-3" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Pratique</h2>
+            <h1>sem<br>medo</h1>
+          </div>
+        </div>
+        <div id="top-banner-4" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Alcance</h2>
+            <h1>novas metas<br>e resultados</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="jogo-memoria" class="memory-game-section">
+    <div class="head">
+        <h2>Jogo da Memória</h2>
+        <div class="score">Pontuação: <span>0</span></div>
+    </div>
+
+    <div class="container">
+        <div class="cell">
+            <div class="front" data-index="1"><img src="/pages/pages/pages/imagens/blu1.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="1"><img src="/pages/pages/pages/imagens/blu2.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="2"><img src="/pages/pages/pages/imagens/donut1.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="2"><img src="/pages/pages/pages/imagens/donut2.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="3"><img src="/pages/pages/pages/imagens/flamingo1.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="3"><img src="/pages/pages/pages/imagens/flamingo2.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="4"><img src="/pages/pages/pages/imagens/gelo1.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="4"><img src="/pages/pages/pages/imagens/gelo2.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="5"><img src="/pages/pages/pages/imagens/uva1.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="5"><img src="/pages/pages/pages/imagens/uva2.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="6"><img src="/pages/pages/pages/imagens/vinho1.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+        <div class="cell">
+            <div class="front" data-index="6"><img src="/pages/pages/pages/imagens/vinho2.png" alt=""></div>
+            <div class="back"></div>
+        </div>
+    </div>
+  </section>
+
+  <script src="/menu.js"></script>
+</body>
+</html>
