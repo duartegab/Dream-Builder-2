@@ -34,6 +34,22 @@ body {
     list-style: none;
     padding: 0;
   }
+
+  .main-menu2 {
+    margin-top: -33px;
+    margin-left: 550px;
+    text-align: right;
+    list-style: none;
+    padding: 0;
+  }
+
+  .main-menu21 {
+    margin-top: -33px;
+    margin-left: 650px;
+    text-align: right;
+    list-style: none;
+    padding: 0;
+  }
   
   .main-menu li {
     display: inline-block;
@@ -54,6 +70,44 @@ body {
     border-bottom: 0.1875em solid #fce38a;
   }
   
+  .main-menu2 li {
+    display: inline-block;
+    padding: 0.75em 1.875em;
+  }
+  
+  .main-menu2 a {
+    padding-bottom: 0.75em;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.875em;
+    text-decoration: none;
+    transition: 0.1s;
+  }
+  
+  .main-menu2 a:hover {
+    color: #fce38a;
+    border-bottom: 0.1875em solid #fce38a;
+  }
+
+  .main-menu21 li {
+    display: inline-block;
+    padding: 0.75em 1.875em;
+  }
+  
+  .main-menu21 a {
+    padding-bottom: 0.75em;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.875em;
+    text-decoration: none;
+    transition: 0.1s;
+  }
+  
+  .main-menu21 a:hover {
+    color: #fce38a;
+    border-bottom: 0.1875em solid #fce38a;
+  }
+
   .content {
     font-family: Montserrat, sans-serif;
     color: whitesmoke;
