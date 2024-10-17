@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Quebra-Cabeça</title>
+    <link rel="stylesheet" type="text/css" href="/pages/subpages/pausas/jogos/quebracabeca.css">
+</head>
+<body>
+    <div class="drag" id="drag">
+        <div class="dragBox">
+            <div class="images" draggable="true" ondragstart="drag(event)" id="block1"> <img src="/pages/subpages/pausas/jogos/imagens/qc1.png" id="img1"></div>
+        </div>
+        <div class="dragBox">
+            <div class="images" draggable="true" ondragstart="drag(event)" id="block2"> <img src="/pages/subpages/pausas/jogos/imagens/qc3.png" id="img2"></div>
+        </div>
+        <div class="dragBox">
+            <div class="images" draggable="true" ondragstart="drag(event)" id="block3"> <img src="/pages/subpages/pausas/jogos/imagens/qc5.png" id="img3"></div>
+        </div>
+        <div class="dragBox">
+            <div class="images" draggable="true" ondragstart="drag(event)" id="block4"> <img src="/pages/subpages/pausas/jogos/imagens/qc7.png" id="img4"></div>
+        </div>
+        <div class="dragBox">
+            <div class="images" draggable="true" ondragstart="drag(event)" id="block5"> <img src="/pages/subpages/pausas/jogos/imagens/qc9.png" id="img5"></div>
+        </div>
+        <div class="dragBox">
+            <div class="images" draggable="true" ondragstart="drag(event)" id="block6"> <img src="/pages/subpages/pausas/jogos/imagens/qc8.png" id="img6"></div>
+        </div>
+        <div class="dragBox">
+            <div class="images" draggable="true" ondragstart="drag(event)" id="block7"> <img src="/pages/subpages/pausas/jogos/imagens/qc6.png" id="img7"></div>
+        </div>
+        <div class="dragBox">
+            <div class="images" draggable="true" ondragstart="drag(event)" id="block8"> <img src="/pages/subpages/pausas/jogos/imagens/qc4.png" id="img8"></div>
+        </div>
+        <div class="dragBox">
+            <div class="images" draggable="true" ondragstart="drag(event)" id="block9"> <img src="/pages/subpages/pausas/jogos/imagens/qc2.png" id="img9"></div>
+        </div>
+    </div>
+
+    <div class="board">
+        <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </div>
+
+    <button class="reset" onclick="window.location.reload();">Resetar Jogo</button>
+    <script>
+        function drag(event) {
+            event.dataTransfer.setData("text", event.target.id);
+        }
+
+        function allowDrop(event) {
+            event.preventDefault();
+        }
+
+        function drop(event) {
+            event.preventDefault();
+            let data = event.dataTransfer.getData("text");
+            let target = event.target;
+
+if (target.classList.contains("dropBox") && target.children.length === 0) {
+    target.appendChild(document.getElementById(data));
+} else if (target.classList.contains("images")) {
+
+    let parent = target.parentNode;
+    if (parent.classList.contains("dropBox") && parent.children.length === 0) {
+        parent.appendChild(document.getElementById(data));
+    }
+}
+}
+function resetGame() {
+            shuffleImages();
+        }
+
+        function shuffleImages() {
+            let drag = document.getElementById('drag');
+            let images = Array.from(drag.querySelectorAll('.images'));
+            let shuffledImages = shuffleArray(images);
+            drag.innerHTML = '';
+            shuffledImages.forEach(img => {
+                let dragBox = document.createElement('div');
+                dragBox.classList.add('dragBox');
+                dragBox.appendChild(img);
+                drag.appendChild(dragBox);
+            });
+        }
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+    </script>
+</body>
+</html>
