@@ -1,5 +1,5 @@
 body {
-    background-color: #ec823a;
+    background-color: #ffcf4c;
   }
   
   .main-header {
@@ -9,7 +9,7 @@ body {
     z-index: 1000;
     font-family: Montserrat, sans-serif;
     color: #fff;
-    background: #ec823a;
+    background: #ffcf4c;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +17,7 @@ body {
   }
 
   .main-header.fixed {
-    background-color: #ec823a; 
+    background-color: #ffcf4c; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
   
@@ -110,7 +110,7 @@ body {
 
   .content {
     font-family: Montserrat, sans-serif;
-    color: whitesmoke;
+    color: rgba(245, 245, 245, 0.856);
     text-align: center;
   }
   
