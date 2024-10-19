@@ -62,3 +62,17 @@ body {
     text-align: center;
   }
   
+  .icon-button img {
+    width: 200px;
+    height: 100px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .icon-button img:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  }
+
+  .botoes {
+    align-items: center;
+  }
