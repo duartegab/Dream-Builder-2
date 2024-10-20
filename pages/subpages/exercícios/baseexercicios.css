@@ -60,6 +60,7 @@ body {
     font-family: Montserrat, sans-serif;
     color: rgba(245, 245, 245);
     text-align: center;
+    text-shadow: 1px 1px 1px #b4b4b4;
   }
   
   .icon-button img {
