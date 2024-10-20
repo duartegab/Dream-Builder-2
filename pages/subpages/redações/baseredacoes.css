@@ -1,0 +1,169 @@
+body {
+    background-color: #ff5f20;
+  }
+  
+  .main-header {
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    background: #ff5f20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 5%;
+  }
+
+  .main-header.fixed {
+    background-color: #ff5f20; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .main-logo {
+    margin-left: -60px;
+    font-weight: 700;
+    font-size: 1.875em;
+  }
+  
+  .main-menu {
+    margin-top: -33px;
+    margin-left: 700px;
+    text-align: right;
+    list-style: none;
+    padding: 0;
+  }
+
+  
+  .main-menu li {
+    display: inline-block;
+    padding: 0.75em 1.875em;
+  }
+  
+  .main-menu a {
+    padding-bottom: 0.75em;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.875em;
+    text-decoration: none;
+    transition: 0.1s;
+  }
+  
+  .main-menu a:hover {
+    color: #fce38a;
+    border-bottom: 0.1875em solid #fce38a;
+  }
+  
+
+  .main-menu21 {
+    margin-top: -33px;
+    margin-left: 820px;
+    text-align: right;
+    list-style: none;
+    padding: 0;
+  }
+
+  .main-menu21 li {
+    display: inline-block;
+    padding: 0.75em 1.875em;
+  }
+  
+  .main-menu21 a {
+    padding-bottom: 0.75em;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.875em;
+    text-decoration: none;
+    transition: 0.1s;
+  }
+  
+  .main-menu21 a:hover {
+    color: #fce38a;
+    border-bottom: 0.1875em solid #fce38a;
+  }
+
+  .content {
+    font-family: Montserrat, sans-serif;
+    color: rgba(245, 245, 245);
+    text-align: center;
+  }
+  
+  .icon-button img {
+    width: 200px;
+    height: 100px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .icon-button img:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  }
+
+  .botoes {
+    align-items: center;
+  }
+
+  .instrucoes {
+    margin-left: 220px;
+    background-color: whitesmoke;
+    color: rgb(66, 51, 44);
+    width: 880px;
+    height: 330px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .instrucoes p {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+  }
+
+  #textAnimation p {
+    opacity: 0;
+    transition: opacity 3s ease;
+  }
+
+  .instrucoes2 {
+    margin-left: 0px;
+    background-color: whitesmoke;
+    color: rgb(66, 51, 44);
+    width: 1300px;
+    height: 900px;
+    text-align: justify;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  .instrucoes2 p {
+    font-family: Montserrat, sans-serif;
+    margin-left: 50px;
+  }
+
+  .instrucoes2 h3 {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+  }
+
+
+
+  .fade-in.show{
+    opacity: 1;
+    transform: translateY(0);
+    text-align: justify;
+  }
+  
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 4s ease-out forwards;
+    opacity: 0;
+  }
