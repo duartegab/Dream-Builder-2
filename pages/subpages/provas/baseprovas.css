@@ -83,6 +83,35 @@ body {
     border-bottom: 0.1875em solid #fce38a;
   }
 
+
+  .main-menu31 {
+    margin-top: -33px;
+    margin-left: 800px;
+    text-align: right;
+    list-style: none;
+    padding: 0;
+  }
+
+  .main-menu31 li {
+    display: inline-block;
+    padding: 0.75em 1.875em;
+  }
+  
+  .main-menu31 a {
+    padding-bottom: 0.75em;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.875em;
+    text-decoration: none;
+    transition: 0.1s;
+  }
+  
+  .main-menu31 a:hover {
+    color: #fce38a;
+    border-bottom: 0.1875em solid #fce38a;
+  }
+
+
   .content {
     font-family: Montserrat, sans-serif;
     color: rgba(245, 245, 245);
