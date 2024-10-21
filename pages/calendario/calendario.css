@@ -23,7 +23,7 @@ td {
 
 .calendar-container header {
 	border-radius: 1em 1em 0 0;
-	background: #FF1493;
+	background: #e26868;
   	width: 389px;
 	color: #fff;
   font-weight: bold;
@@ -64,7 +64,7 @@ td {
 }
 
 .calendar thead {
-	color: #FF1493;
+	color: #e26868;
   font-family: 'Lato', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   font-weight: bold;
@@ -77,12 +77,12 @@ td {
 }
 
 .calendar tbody td:hover {
-	background: #FFB6C1;
+	background: #ffb6ba;
 	color: #fff;
 }
 
 .current-day {
-	color: #FF1493;
+	color: #e26868;
   font-weight: bold;
 }
 
@@ -101,7 +101,7 @@ td {
 }
 
 .navigation button {
-  background-color: #FF1493;
+  background-color: #e26868;
   border-radius: 10px;
   border: none;
   color: white;
@@ -119,5 +119,5 @@ td {
 }
 
 .navigation button:hover {
-  background-color: #C71585;
+  background-color: #b35050;
 }

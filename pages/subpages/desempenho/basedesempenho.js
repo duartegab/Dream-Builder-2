@@ -21,14 +21,14 @@ function bannerSwitcher() {
               {
                   label: 'Acertos G',
                   data: [8, 10, 12, 15, 18, 20, 22, 25, 28, 30, 32, 35, 38, 40, 42, 45],
-                  backgroundColor: '#E21C4E',
+                  backgroundColor: '#B11342',
                   borderColor: '#FFFFFF',
                   borderWidth: 1
               },
               {
                   label: 'Acertos P2',
                   data: [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9],
-                  backgroundColor: '#B11342',
+                  backgroundColor: '#660425',
                   borderColor: '#FFFFFF',
                   borderWidth: 1
               }

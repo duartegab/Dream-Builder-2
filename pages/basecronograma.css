@@ -1,5 +1,5 @@
 body {
-    background-color: #ff2a8d;
+    background: linear-gradient(to right, #ffee8f, #e26868);
   }
   
   .main-header {
@@ -11,7 +11,7 @@ body {
     z-index: 1000;
     font-family: Montserrat, sans-serif;
     color: #fff;
-    background: #ff2a8d;
+    background: linear-gradient(to right, #ffee8f, #e26868);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,7 @@ body {
   }
 
   .main-header.fixed {
-    background-color: #ff2a8d; 
+    background: linear-gradient(to right, #ffee8f, #e26868);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
   
