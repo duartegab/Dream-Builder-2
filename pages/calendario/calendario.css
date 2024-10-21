@@ -1,0 +1,123 @@
+body {
+	background: transparent;
+  display: grid;
+	font: 87.5%/1.5em 'Lato', sans-serif;
+	margin: 0;
+  min-height: 100vh;
+  place-items: center;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td {
+	padding: 0;
+}
+
+.calendar-container {
+	position: relative;
+	width: 450px;
+}
+
+.calendar-container header {
+	border-radius: 1em 1em 0 0;
+	background: #FF1493;
+  	width: 389px;
+	color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+	padding: 3em 2em;
+    	box-shadow: 
+    	0 -4px 8px rgba(0, 0, 0, 0.5),  
+    	4px 0px 8px rgba(0, 0, 0, 0.33),  
+    	0 4px 8px rgba(0, 0, 0, 0.25); 
+}
+
+.day {
+	font-size: 8em;
+	font-weight: 900;
+	line-height: 1em;
+}
+
+.month {
+	font-size: 4em;
+	line-height: 1em;
+	text-transform: lowercase;
+}
+
+.calendar {
+	background: #fff;
+    font-weight: bold;
+    width: 444px;
+	border-radius: 0 0 1em 1em;
+  	-webkit-box-shadow: 
+    	0 4px 8px rgba(0, 0, 0, 0.1),  
+    	4px 0px 8px rgba(0, 0, 0, 0.1); 
+	box-shadow: 
+    	0 4px 8px rgba(0, 0, 0, 0.2), 
+    	4px 0px 8px rgba(0, 0, 0, 0.4); 
+	color: #555;
+	display: inline-block;
+	padding: 2em;
+}
+
+.calendar thead {
+	color: #FF1493;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+	text-transform: uppercase;
+}
+
+.calendar td {
+	padding: .5em 1em;
+	text-align: center;
+}
+
+.calendar tbody td:hover {
+	background: #FFB6C1;
+	color: #fff;
+}
+
+.current-day {
+	color: #FF1493;
+  font-weight: bold;
+}
+
+.next-month {
+	color: #999;
+}
+
+
+
+
+.navigation {
+  margin-left: -18px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.navigation button {
+  background-color: #FF1493;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+  font-size: 1em;
+  margin: 0 0.5em;
+  padding: 0.5em 1em;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+
+}
+
+.navigation button:hover {
+  background-color: #C71585;
+}
