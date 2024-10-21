@@ -136,8 +136,8 @@
             </div>
         </div>
         <div class="card card-button">
-            <button onclick="addValue(5);">+</button>
-            <button class="minus" onclick="decreaseValue(5);">-</button>
+            <button onclick="addValue(10);">+</button>
+            <button class="minus" onclick="decreaseValue(10);">-</button>
         </div>
         <br><br>
     </div>
@@ -146,7 +146,7 @@
         const circularProgressBar = document.querySelector("#circularProgressBar");
         const circularProgressBarNumber = document.querySelector("#circularProgressBar .progress-value");
 
-        let chartValue = 0;
+        let chartValue = 10;
 
         const addValue = (value) => {
             if (chartValue < 100) {
