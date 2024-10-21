@@ -7,6 +7,9 @@ body {
     margin: 0;
     background-image: linear-gradient(rgb(226,80,76), rgb(255, 177, 59), rgb(245, 245, 121));
     display: flex;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px #b4b4b4;
+    font-family: Montserrat, sans-serif;
     justify-content: center;
     align-items: center;
 }
@@ -14,6 +17,7 @@ body {
 form {
     width: 300px;
     text-align: center;
+    color: whitesmoke;
 }
 
 input {
@@ -21,4 +25,8 @@ input {
     margin: 10px auto;
     width: 250px;
     height: 30px;
+    color: #474747;
+    font-family: Montserrat, sans-serif;
+
+
 }

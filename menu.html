@@ -22,11 +22,24 @@
           <li><a href="pages/exercicios.html">Exercícios</a></li>
           <li><a href="pages/pausa.html">Pausa</a></li>
           <li><a href="#"><span class="fa fa-shopping-cart33"></span></a></li>
-          <li><a href="#"><span class="fa fa-search33"></span></a></li>
-        </ul>
+          <li><a href="#"><span class="fa fa-search33"></span></a></li><br>
+        </ul><br><br><br>
+        <div class="containt">
+          <h3 id="mensagem-usuario"></h3>
+      
+          <script>
+              var nomeUsuario = sessionStorage.getItem('usuario');
+              
+              if (nomeUsuario) {
+                  document.getElementById('mensagem-usuario').innerText = 'Olá, ' + nomeUsuario;
+              } else {
+                  document.getElementById('mensagem-usuario').innerText = 'Olá, usuário!';
+              }
+          </script></div>
       </nav>
     </div>
   </header>
+
 
   <section id="section-1">
     <div class="content-slider">
@@ -35,6 +48,7 @@
       <input type="radio" id="banner3" class="sec-1-input" name="banner">
       <input type="radio" id="banner4" class="sec-1-input" name="banner">
 
+      
       <div class="slider">
         <div id="top-banner-1" class="banner">
           <div class="banner-inner-wrapper">
@@ -71,5 +85,6 @@
   </section>
 
   <script src="/menu.js"></script>
+  <script src="/login.js"></script>
 </body>
 </html>

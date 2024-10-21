@@ -3,6 +3,8 @@ function logar() {
     var senha = document.getElementById('senha').value;
 
     if (login !== "" && senha !== "") {
+        sessionStorage.setItem('usuario', login);
+        
         alert('Sucesso');
         location.href = "menu.html";
     } else {
