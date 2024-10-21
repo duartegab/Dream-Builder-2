@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-size: 16px;
     background: #fff;
+    width: 110%;
     section {
         display: block;
     }
