@@ -5,64 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login JS</title>
-
-    <style>
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura total da tela */
-            margin: 0; /* Remove qualquer margem padrão */
-            background-image: linear-gradient(rgb(226,80,76), rgb(255, 177, 59), rgb(245, 245, 121));
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        form {
-            width: 300px;
-            text-align: center;
-        }
-
-        input {
-            display: block;
-            margin: 10px auto;
-            width: 250px;
-            height: 30px;
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="login.css"> 
 </head>
 <body>
-    
-
     <form>
-
         <h3>Login</h3>
         <input type="text" placeholder="Login" id="login">
         <input type="password" placeholder="Senha" id="senha">
         <input type="submit" onclick="logar(); return false">
-
     </form>
-
-
-    <script>
-        function logar() {
-            var login = document.getElementById('login').value;
-            var senha = document.getElementById('senha').value;
-    
-            if (login !== "" && senha !== "") {
-                alert('Sucesso');
-                location.href = "menu.html";
-            } else {
-                alert('Por favor, preencha ambos os campos');
-            }
-        }
-    </script>
-    
-
+    <script src="login.js"></script> 
 </body>
 </html>
