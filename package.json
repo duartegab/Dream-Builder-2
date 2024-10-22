@@ -1,0 +1,18 @@
+{
+  "name": "dream-builder-2",
+  "version": "1.0.0",
+  "description": "Segunda Versão do Site voltado para a jornada pré-vestibular Fatec. Evolução do site com a criação de login para o usuário e novas funcionalidades, além da implementação de um banco de dados.",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7"
+  }
+}
