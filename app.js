@@ -2,10 +2,8 @@ const express = require('express');
 const mysql = require('mysql2');
 const app = express();
 
-// Permitir que o servidor leia dados enviados em requisições POST
 app.use(express.urlencoded({ extended: true }));
 
-// Configurar a conexão com o banco de dados MySQL
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
@@ -13,7 +11,6 @@ const connection = mysql.createConnection({
   database: 'dreambuilder'
 });
 
-// Conectar ao banco de dados
 connection.connect((err) => {
   if (err) {
     console.error('Erro ao conectar ao MySQL:', err);
@@ -22,13 +19,11 @@ connection.connect((err) => {
   console.log('Conectado ao MySQL!');
 });
 
-// Rota para processar o login
 app.post('/login', (req, res) => {
   const { login, senha } = req.body;
 
-  // Verificar se o usuário existe no banco
-  const sql = 'SELECT * FROM usuarios WHERE username_usuario = ? AND password_usuario = ?';
-  connection.query(sql, [username_usuario, password_usuario], (err, results) => {
+  const sql = 'SELECT * FROM usuarios WHERE login = ? AND senha = ?';
+  connection.query(sql, [login, senha], (err, results) => {
     if (err) {
       return res.status(500).send('Erro ao processar login');
     }
@@ -41,13 +36,11 @@ app.post('/login', (req, res) => {
   });
 });
 
-// Rota para registrar novos usuários
 app.post('/register', (req, res) => {
   const { login, senha } = req.body;
 
-  // Inserir um novo usuário no banco de dados
-  const sql = 'INSERT INTO usuarios (username_usuario, password_usuario) VALUES (?, ?)';
-  connection.query(sql, [username_usuario, password_usuario], (err, result) => {
+  const sql = 'INSERT INTO usuarios (senha, login) VALUES (?, ?)';
+  connection.query(sql, [senha, login], (err, result) => {
     if (err) {
       return res.status(500).send('Erro ao registrar usuário');
     }
@@ -55,7 +48,6 @@ app.post('/register', (req, res) => {
   });
 });
 
-// Iniciar o servidor na porta 3000
-app.listen(3001, () => {
+app.listen(3000, () => {
   console.log('Servidor rodando na porta 3000');
 });
