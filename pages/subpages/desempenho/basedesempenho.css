@@ -16,11 +16,13 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1em 5%;
+    border-bottom: 2px solid white;
   }
 
   .main-header.fixed {
     background: linear-gradient(to right, #ffee8f, #e26868);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid white;
   }
   
   .main-logo {
