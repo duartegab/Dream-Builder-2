@@ -147,18 +147,17 @@ body {
   
   .main-footer a:hover {
     color: #fce38a;
-    border-bottom: 0.1875em solid #fce38a;
   }
 
   .icon-button img {
     width: 50;
     height: 50;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.3s ease;
   }
   
   .icon-button img:hover {
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   }
 
   .botoes {
