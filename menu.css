@@ -315,7 +315,8 @@ to {
 
   .main-footer {
     height: 50px;
-    margin-right: 66px;
+    width: 90%;
+    margin-left: -65px;
     font-family: Montserrat, sans-serif;
     color: #ffffff;
     background: linear-gradient(rgba(252,227,138,.9), rgba(243,129,129,.9));
