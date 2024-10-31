@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 
 const dadosRoutes = require('./api/routes/dadosRoutes');
+const cursosRoutes = require('./api/routes/cursosRoutes');
 const contatoRoutes = require('./api/routes/contatoRoutes');
 const loginRoutes = require('./api/routes/loginRoutes');
 
@@ -20,6 +21,7 @@ app.use(express.static('js'));
 const port = 3000;
 
 app.use("/dados", dadosRoutes);
+app.use("/cursos", cursosRoutes);
 app.use("/contato", contatoRoutes);
 app.use("/", loginRoutes); 
  
