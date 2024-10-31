@@ -1,53 +1,34 @@
 const express = require('express');
-const mysql = require('mysql2');
 const app = express();
 
-app.use(express.urlencoded({ extended: true }));
+const dadosRoutes = require('./api/routes/dadosRoutes');
+const contatoRoutes = require('./api/routes/contatoRoutes');
+const loginRoutes = require('./api/routes/loginRoutes');
 
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '13579',
-  database: 'dreambuilder'
-});
+app.use(express.json());
 
-connection.connect((err) => {
-  if (err) {
-    console.error('Erro ao conectar ao MySQL:', err);
-    return;
-  }
-  console.log('Conectado ao MySQL!');
-});
+app.set('views engine', 'ejs');
+app.set('views', './api/views');
 
-app.post('/login', (req, res) => {
-  const { login, senha } = req.body;
+app.use('static', express.static(__dirname + '/public'));
+app.use(express.static('public'));
+app.use(express.static('estilos'));
+app.use(express.static('imagens'));
+app.use(express.static('js'));
 
-  const sql = 'SELECT * FROM usuarios WHERE login = ? AND senha = ?';
-  connection.query(sql, [login, senha], (err, results) => {
-    if (err) {
-      return res.status(500).send('Erro ao processar login');
-    }
 
-    if (results.length > 0) {
-      res.send('Login bem-sucedido!');
-    } else {
-      res.send('Usuário ou senha incorretos');
-    }
-  });
-});
+const port = 3000;
 
-app.post('/register', (req, res) => {
-  const { login, senha } = req.body;
+app.use("/dados", dadosRoutes);
+app.use("/contato", contatoRoutes);
+app.use("/", loginRoutes); 
+ 
+ 
+app.listen(port, () => {
+    console.log(`Aplicativo Rodando na Porta ${port}`);
+})
 
-  const sql = 'INSERT INTO usuarios (senha, login) VALUES (?, ?)';
-  connection.query(sql, [senha, login], (err, result) => {
-    if (err) {
-      return res.status(500).send('Erro ao registrar usuário');
-    }
-    res.send('Usuário registrado com sucesso!');
-  });
-});
+const conexao = require("./api/config/conexao")
 
-app.listen(3000, () => {
-  console.log('Servidor rodando na porta 3000');
-});
+module.exports = app;
+
