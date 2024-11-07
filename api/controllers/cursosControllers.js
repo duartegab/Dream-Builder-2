@@ -7,6 +7,8 @@ module.exports = {
     getByIdAdsN,
     getAllDsm,
     getByIdDsm,
+    getAllGe,
+    getByIdGe,
     
 }
 
@@ -102,6 +104,40 @@ function getAllDsm(req, res) {
 function getByIdDsm(req, res) {
     var cod = req.params.id;
     cursosModels.getByIdDsm(cod, function(err, resultado){
+        // console.log("Dado: ", resultado[0])
+        console.log("Cursos Foi Lida...")
+        if(err){
+            throw err
+        }else {
+            return res.json(resultado)
+        }
+    })
+}
+
+
+
+function getAllGe(req, res) {
+    console.log("\nController- Iniciando Leitura dos Dados das Edições de Curso na Model..\n")
+    var lerCursos
+    console.time(lerCursos)
+    cursosModels.getAllGe(function(err,resultado) {
+        if(err){
+            throw err;
+        } else {
+            console.log("Vou Buscar Edições de Curso na Model...")
+            console.log(resultado)
+            console.timeEnd(lerCursos)
+
+            return res.json(resultado)
+            }
+        }
+    )
+};
+
+
+function getByIdGe(req, res) {
+    var cod = req.params.id;
+    cursosModels.getByIdGe(cod, function(err, resultado){
         // console.log("Dado: ", resultado[0])
         console.log("Cursos Foi Lida...")
         if(err){

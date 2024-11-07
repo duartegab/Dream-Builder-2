@@ -13,8 +13,8 @@ router.get("/adsn/:id", controllersCursos.getByIdAdsN);
 router.get("/dsm", controllersCursos.getAllDsm);
 router.get("/dsm/:id", controllersCursos.getByIdDsm);
 
-// router.get("/", controllersCursos.getAll);
-// router.get("/:id", controllersCursos.getById);
+router.get("/ge", controllersCursos.getAllGe);
+router.get("/ge/:id", controllersCursos.getByIdGe);
 
 // router.get("/", controllersCursos.getAll);
 // router.get("/:id", controllersCursos.getById);

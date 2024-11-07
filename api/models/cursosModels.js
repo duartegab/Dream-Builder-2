@@ -10,6 +10,8 @@ module.exports = {
     getByIdAdsN,
     getAllDsm,
     getByIdDsm,
+    getAllGe,
+    getByIdGe,
 }
 
 
@@ -37,4 +39,13 @@ function getAllDsm(callback){
 
 function getByIdDsm(codigo, callback){
     conexao.query("Select * From dsm Where id_dsm = " + codigo, callback)
+}
+
+
+function getAllGe(callback){
+    conexao.query("select * from ge ", callback)
+}
+
+function getByIdGe(codigo, callback){
+    conexao.query("Select * From ge Where id_ge = " + codigo, callback)
 }
