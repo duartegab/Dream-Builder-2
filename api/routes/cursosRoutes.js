@@ -19,8 +19,8 @@ router.get("/ge/:id", controllersCursos.getByIdGe);
 router.get("/gpim", controllersCursos.getAllGpiM);
 router.get("/gpim/:id", controllersCursos.getByIdGpiM);
 
-// router.get("/", controllersCursos.getAll);
-// router.get("/:id", controllersCursos.getById);
+router.get("/gpin", controllersCursos.getAllGpiN);
+router.get("/gpin/:id", controllersCursos.getByIdGpiN);
 
 // router.get("/", controllersCursos.getAll);
 // router.get("/:id", controllersCursos.getById);

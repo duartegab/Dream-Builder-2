@@ -14,6 +14,8 @@ module.exports = {
     getByIdGe,
     getAllGpiM,
     getByIdGpiM,
+    getAllGpiN,
+    getByIdGpiN,
 }
 
 
@@ -59,4 +61,13 @@ function getAllGpiM(callback){
 
 function getByIdGpiM(codigo, callback){
     conexao.query("Select * From gpi_manha Where id_gpi_manha = " + codigo, callback)
+}
+
+
+function getAllGpiN(callback){
+    conexao.query("select * from gpi_noite ", callback)
+}
+
+function getByIdGpiN(codigo, callback){
+    conexao.query("Select * From gpi_noite Where id_gpi_noite = " + codigo, callback)
 }
