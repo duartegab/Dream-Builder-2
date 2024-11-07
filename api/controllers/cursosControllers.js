@@ -13,6 +13,10 @@ module.exports = {
     getByIdGpiM,
     getAllGpiN,
     getByIdGpiN,
+    getAllGrhM,
+    getByIdGrhM,
+    getAllGrhN,
+    getByIdGrhN
 }
 
 function getAllAdsM(req, res) {
@@ -204,6 +208,72 @@ function getAllGpiN(req, res) {
 function getByIdGpiN(req, res) {
     var cod = req.params.id;
     cursosModels.getByIdGpiN(cod, function(err, resultado){
+        console.log("Cursos Foi Lida...")
+        if(err){
+            throw err
+        }else {
+            return res.json(resultado)
+        }
+    })
+};
+
+
+
+function getAllGrhM(req, res) {
+    console.log("\nController- Iniciando Leitura dos Dados das Edições de Curso na Model..\n")
+    var lerCursos
+    console.time(lerCursos)
+    cursosModels.getAllGrhM(function(err,resultado) {
+        if(err){
+            throw err;
+        } else {
+            console.log("Vou Buscar Edições de Curso na Model...")
+            console.log(resultado)
+            console.timeEnd(lerCursos)
+
+            return res.json(resultado)
+            }
+        }
+    )
+};
+
+
+function getByIdGrhM(req, res) {
+    var cod = req.params.id;
+    cursosModels.getByIdGrhM(cod, function(err, resultado){
+        console.log("Cursos Foi Lida...")
+        if(err){
+            throw err
+        }else {
+            return res.json(resultado)
+        }
+    })
+};
+
+
+
+function getAllGrhN(req, res) {
+    console.log("\nController- Iniciando Leitura dos Dados das Edições de Curso na Model..\n")
+    var lerCursos
+    console.time(lerCursos)
+    cursosModels.getAllGrhN(function(err,resultado) {
+        if(err){
+            throw err;
+        } else {
+            console.log("Vou Buscar Edições de Curso na Model...")
+            console.log(resultado)
+            console.timeEnd(lerCursos)
+
+            return res.json(resultado)
+            }
+        }
+    )
+};
+
+
+function getByIdGrhN(req, res) {
+    var cod = req.params.id;
+    cursosModels.getByIdGrhN(cod, function(err, resultado){
         console.log("Cursos Foi Lida...")
         if(err){
             throw err

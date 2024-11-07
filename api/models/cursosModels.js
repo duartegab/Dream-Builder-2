@@ -16,6 +16,10 @@ module.exports = {
     getByIdGpiM,
     getAllGpiN,
     getByIdGpiN,
+    getAllGrhM,
+    getByIdGrhM,
+    getAllGrhN,
+    getByIdGrhN
 }
 
 
@@ -70,4 +74,22 @@ function getAllGpiN(callback){
 
 function getByIdGpiN(codigo, callback){
     conexao.query("Select * From gpi_noite Where id_gpi_noite = " + codigo, callback)
+}
+
+
+function getAllGrhM(callback){
+    conexao.query("select * from grh_manha ", callback)
+}
+
+function getByIdGrhM(codigo, callback){
+    conexao.query("Select * From grh_manha Where id_grh_manha = " + codigo, callback)
+}
+
+
+function getAllGrhN(callback){
+    conexao.query("select * from grh_noite ", callback)
+}
+
+function getByIdGrhN(codigo, callback){
+    conexao.query("Select * From grh_noite Where id_grh_noite = " + codigo, callback)
 }
