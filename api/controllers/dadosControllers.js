@@ -1,56 +1,95 @@
 const dadosModels = require("../models/dadosModels");
 
 module.exports = {
-    getAll,
-    getById,
     edicoesListar,
+    adsListar,
+    dsmListar,
+    geListar,
+    gpiListar,
+    grhListar,
 }
-
-
-function getAll(req, res) {
-    console.log("\nController- Iniciando Leitura dos Dados das Edições de Curso na Model..\n")
-    var lerDados
-    console.time(lerDados)
-    dadosModels.getAll(function(err,resultado) {
-        if(err){
-            throw err;
-        } else {
-            console.log("Vou Buscar Edições de Curso na Model...")
-            console.log(resultado)
-            console.timeEnd(lerDados)
-
-            return res.json(resultado)
-            }
-        }
-    )
-};
-
-
-
-function getById(req, res) {
-    var cod = req.params.id;
-    dadosModels.getById(cod, function(err, resultado){
-        console.log("Edições Foi Lida...")
-        if(err){
-            throw err
-        }else {
-            return res.json(resultado)
-        }
-    })
-};
-
 
 
 
 function edicoesListar(req, res) {
     console.log("Controller Listar Ediçoes...")
-    livrosModels.listarEdicoes(function(erro, resultado){
+    dadosModels.listarEdicoes(function(erro, resultado){
         console.log("Retorno Model Listar Edicoes...")
         if(erro) {
             throw erro
         } else {
-            res.render('frm_listarEdicoes.ejs', {
+            res.render('dadosedicoes.ejs', {
                 obj_edicao: resultado
+            })
+        }
+    })
+}
+
+function adsListar(req, res) {
+    console.log("Controller Listar Ediçoes...")
+    dadosModels.listarAds(function(erro, resultado){
+        console.log("Retorno Model Listar Ads...")
+        if(erro) {
+            throw erro
+        } else {
+            res.render('dadosads.ejs', {
+                obj_cursos: resultado
+            })
+        }
+    })
+}
+
+function dsmListar(req, res) {
+    console.log("Controller Listar Ediçoes...")
+    dadosModels.listarDsm(function(erro, resultado){
+        console.log("Retorno Model Listar Dsm...")
+        if(erro) {
+            throw erro
+        } else {
+            res.render('dadosdsm.ejs', {
+                obj_cursos: resultado
+            })
+        }
+    })
+}
+
+function geListar(req, res) {
+    console.log("Controller Listar Ediçoes...")
+    dadosModels.listarGe(function(erro, resultado){
+        console.log("Retorno Model Listar Ge...")
+        if(erro) {
+            throw erro
+        } else {
+            res.render('dadosge.ejs', {
+                obj_cursos: resultado
+            })
+        }
+    })
+}
+
+function gpiListar(req, res) {
+    console.log("Controller Listar Ediçoes...")
+    dadosModels.listarGpi(function(erro, resultado){
+        console.log("Retorno Model Listar Gpi...")
+        if(erro) {
+            throw erro
+        } else {
+            res.render('dadosgpi.ejs', {
+                obj_cursos: resultado
+            })
+        }
+    })
+}
+
+function grhListar(req, res) {
+    console.log("Controller Listar Ediçoes...")
+    dadosModels.listarGrh(function(erro, resultado){
+        console.log("Retorno Model Listar Grh...")
+        if(erro) {
+            throw erro
+        } else {
+            res.render('dadosgrh.ejs', {
+                obj_cursos: resultado
             })
         }
     })

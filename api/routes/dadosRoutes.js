@@ -4,9 +4,13 @@ const express = require('express');
 
 const router = express.Router();
 
-router.get("/", controllersDados.getAll);
-router.get("/:id", controllersDados.getById);
 
-router.post("/edicoes", controllersDados.edicoesListar);
+router.post("/", controllersDados.edicoesListar);
+router.post("/ads", controllersDados.adsListar);
+router.post("/dsm", controllersDados.dsmListar);
+router.post("/ge", controllersDados.geListar);
+router.post("/gpi", controllersDados.gpiListar);
+router.post("/grh", controllersDados.grhListar);
+
 
 module.exports = router;
