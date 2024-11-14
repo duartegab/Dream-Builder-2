@@ -6,6 +6,7 @@ module.exports = {
     edicoesListar,
 }
 
+
 function getAll(req, res) {
     console.log("\nController- Iniciando Leitura dos Dados das Edições de Curso na Model..\n")
     var lerDados
