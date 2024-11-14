@@ -6,7 +6,7 @@ module.exports = {
 };
 
 function exibirFormulario(req, res) {
-    res.render('index.ejs', { title: 'Seu Formulário' });
+    res.render('formulario.ejs', { title: 'Seu Formulário' });
 }
 
 function salvarFormulario(req, res) {
@@ -27,15 +27,16 @@ function salvarFormulario(req, res) {
         if (erro) {
             console.error("Erro ao salvar dados:", erro);
             return res.status(500).send("Erro ao salvar formulário.");
-        } 
+        } else {
         res.render("index.ejs", {
-            title: "Contato",
-            mensagem: "Formulário cadastrado com sucesso!"
-        });
+            title: "Login",
+            mensagem: "Cadastro realizado com sucesso! Faça login para continuar."
+        })};
     });
 }
 
 console.log("Usuário cadastrado com sucesso!");
+
 
 
 

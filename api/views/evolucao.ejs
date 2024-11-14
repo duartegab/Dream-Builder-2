@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(243,129,129,.9), rgba(252,227,138,.9));
+            font-family: Montserrat, sans-serif;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgba(243,129,129,.9);
+            height: 15vh;
+            border-bottom: 5px solid white;
+        }
+
+        header h3 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            background: rgba(243,129,129,.9);
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: 0.3s ease;
+        }
+
+        nav a:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .container {
+            margin: 50px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .box {
+            background: rgba(255, 255, 255, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 577px;
+        }
+
+        .box h4 {
+            color: #fff;
+            font-size: 1.2em;
+        }
+
+        .box form input[type="submit"] {
+            background-color: rgba(252,227,138,.9);
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #f38181;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .box form input[type="submit"]:hover {
+            background-color: rgba(252,227,138,1);
+        }
+
+        .evolution {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            width: 515px;
+            text-align: center;
+        }
+
+        .evolution h4 {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #f37878;
+            margin-bottom: 20px;
+        }
+
+        .evolution label {
+            font-size: 0.9rem;
+            color: #555;
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+            margin-left: 50px;
+
+        }
+
+        .evolution input[type="text"],
+        .evolution input[type="number"] {
+            width: 400px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            outline: none;
+            transition: all 0.3s;
+            margin-bottom: 15px;
+        }
+
+        .evolution input[type="text"]:focus,
+        .evolution input[type="number"]:focus {
+            border-color: #f37878;
+            box-shadow: 0 0 8px rgba(243, 129, 129, 0.2);
+        }
+
+        .evolution button[type="submit"] {
+            width: 400px;
+            padding: 10px;
+            background-color: #f37878;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .evolution button[type="submit"]:hover {
+            background-color: #f25c5c;
+        }
+
+        .erro .alert {
+            color: #d9534f;
+            background-color: #f9d6d5;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h3>Gerenciador de Tarefas<br>Dream Builder 2</h3>
+        <nav>
+            <a href="/site">Site Dream Builder 2</a>
+            <a href="/evolucao">Sua Evolução</a>
+            <a href="/curdicoes">Cursos e Edições</a>
+            <a href="/contato">Fale Conosco</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <div class="evolution">
+            <h4>Sua Evolução</h4>
+            <form action="/evolucao/salvar" method="post">
+                <label>Digite o seu nome:</label>
+                <input type="text" name="nome" required>
+        
+                <label>Qual o número da prova que fez? (1 a 16):</label>
+                <input type="number" name="prova" required>
+        
+                <label>Já é qual prova realizada? (ex: 1°, 15°):</label>
+                <input type="text" name="evolucao" maxlength="3" required>
+        
+                <label>Qual o ano e semestre da prova? (ex: 2024.1):</label>
+                <input type="text" name="semestre" maxlength="6" required>
+        
+                <label>Digite o número de Acertos Gerais (0 a 54):</label>
+                <input type="number" name="geral" required>
+        
+                <label>Digite o número de Acertos em Peso Dois (0 a 10):</label>
+                <input type="number" name="pesodois" required>
+        
+                <label>Digite o número de Pontos na Redação (0 a 100):</label>
+                <input type="number" name="redacao" required>
+        
+                <label>Digite qual sua Nota de Corte (baseado na Calculadora Fatec):</label>
+                <input type="number" step="0.01" name="notacorte" required>
+        
+                <button type="submit">Salvar Evolução</button>
+            </form>
+        </div>
+        </div>
+    </div>
+
+</body>
+</html>

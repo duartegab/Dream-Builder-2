@@ -5,7 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %></title>
     <style>
+        body {
+            background-image: linear-gradient(rgba(243,129,129,.9), rgba(252,227,138,.9));
+            font-family: Montserrat, sans-serif;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgba(243,129,129,.9);
+            height: 15vh;
+            border-bottom: 5px solid white;
+        }
 
+        header h3 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            background: rgba(243,129,129,.9);
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: 0.3s ease;
+        }
+
+        nav a:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .container {
+            margin: 50px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .box {
+            background: rgba(255, 255, 255, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 577px;
+        }
+
+        .box h4 {
+            color: #fff;
+            font-size: 1.2em;
+        }
+
+        .box form input[type="submit"] {
+            background-color: rgba(252,227,138,.9);
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #f38181;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .box form input[type="submit"]:hover {
+            background-color: rgba(252,227,138,1);
+        }
 
         .evolution {
             background: rgba(255, 255, 255, 0.9);
@@ -79,13 +152,21 @@
 </head>
 <body>
 
-
+    <header>
+        <h3>Gerenciador de Tarefas<br>Dream Builder 2</h3>
+        <nav>
+            <a href="/site">Site Dream Builder 2</a>
+            <a href="/evolucao">Sua Evolução</a>
+            <a href="/curdicoes">Cursos e Edições</a>
+            <a href="/contato">Fale Conosco</a>
+        </nav>
+    </header>
 
     <div class="container">
         <div class="box">
             <div class="evolution">
             <h4>Fale Conosco</h4>
-                <form action="/contato" method="post">
+                <form action="/contato/salvar" method="post">
                     <label>Digite o seu nome:</label>
                     <input type="text" name="nome" maxlength="150" required>
             
