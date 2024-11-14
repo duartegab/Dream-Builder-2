@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/estilos/livros.css"/>
+    <title>Listagem de Cursos - DSM</title>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(243,129,129,.9), rgba(252,227,138,.9));
+            font-family: Montserrat, sans-serif;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgba(243,129,129,.9);
+            height: 15vh;
+            border-bottom: 5px solid white;
+        }
+
+        header h3 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            background: rgba(243,129,129,.9);
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: 0.3s ease;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.8);
+        }
+
+        .container {
+            margin: 50px auto;
+            width: 1000px;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+
+        }
+
+        fieldset {
+            background: rgba(255, 255, 255, 0.3);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        legend {
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.2em;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+
+        }
+
+        table {
+            width: 945px;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: rgba(206, 91, 91, 0.9);
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(255, 117, 117, 0.9);
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgba(243, 129, 129, 0.8);
+        }
+
+        tr:hover {
+            background-color: rgba(172, 88, 88, 0.9);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Gerenciador de Tarefas<br>Dream Builder 2</h3>
+        <nav>
+            <a href="/site">Site Dream Builder 2</a>
+            <a href="/evolucao">Sua Evolução</a>
+            <a href="/dados">Cursos e Edições</a>
+            <a href="/contato">Fale Conosco</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h3>Listagem de Cursos - GE</h3>
+        <fieldset>
+            <legend>Registro de Edições - GE</legend>
+            <table>
+                <tr>
+                    <th>Código</th>
+                    <th>Código da Edição</th>
+                    <th>Nome do Curso</th>
+                    <th>Turno do Curso</th>
+                    <th>Nota de Corte</th>
+                    <th>Maior Nota</th>
+                    <th>Menor Nota</th>
+                    <th>Número de Inscritos</th>
+                    <th>Número de Vagas</th>
+                    <th>Demanda por Aluno/Vaga</th>
+                </tr>
+                <% for(let i=0; i<obj_cursos.length; i++) { %>
+                    <tr>
+                        <td><%= obj_cursos[i].id_curso %></td>
+                        <td><%= obj_cursos[i].idEdicao %></td>
+                        <td><%= obj_cursos[i].nome_curso %></td>
+                        <td><%= obj_cursos[i].turno_curso %></td>
+                        <td><%= obj_cursos[i].nota_corte %></td>
+                        <td><%= obj_cursos[i].maior_nota %></td>
+                        <td><%= obj_cursos[i].menor_nota %></td>
+                        <td><%= obj_cursos[i].inscricoes %></td>
+                        <td><%= obj_cursos[i].vagas %></td>
+                        <td><%= obj_cursos[i].demanda %></td>
+                    </tr>
+                <% } %>
+            </table>
+        </fieldset>
+    </div>
+</body>
+</html>
