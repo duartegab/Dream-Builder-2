@@ -6,7 +6,7 @@ module.exports = {
 };
 
 function exibirFormulario(req, res) {
-    res.render('evolucao.ejs', { title: 'Sua Evolução' });
+    res.render('index.ejs', { title: 'Sua Evolução' });
 }
 
 function salvarEvolucao(req, res) {
