@@ -1,13 +1,15 @@
-// const controllerLogin = require("../../api/controllers/loginControllers");
+const controllerLogin = require("../../api/controllers/loginControllers");
 
-// const express = require('express');
+const express = require('express');
  
-// const router = express.Router();
+const router = express.Router();
  
  
-// router.get('/', controllerLogin.login);
-// router.post('/validar', controllerLogin.validarPSW);
-// router.post('/',controllersLogin.create);
-
+//rota do projeto
  
-// module.exports = router
+router.get('/', controllerLogin.login);
+router.post('/validar', controllerLogin.validarPSW);
+router.get('/cadastrar', controllerLogin.cadastrar); 
+router.post('/salvar', controllerLogin.salvar);
+ 
+module.exports = router

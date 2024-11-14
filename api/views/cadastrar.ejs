@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title><%= title %></title>
+
+    <style>
+        body {
+            background-image: linear-gradient(rgba(243,129,129,.9), rgba(252,227,138,.9));
+            font-family: Montserrat, sans-serif;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        header {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .blocoCadastro {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            
+        }
+
+        .blocoCadastro p {
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .form-cadastro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        label {
+            margin-top: 15px;
+            font-size: 1em;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .form-control {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            margin-top: 5px;
+            font-size: 1em;
+        }
+
+        .form-control:focus {
+            outline: none;
+            box-shadow: 0px 0px 5px rgba(243, 129, 129, 0.7);
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: rgba(243,129,129,.9);
+            color: #fff;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn-primary:hover {
+            background-color: rgba(252,227,138,.9);
+        }
+
+        .btn-secondary {
+            background-color: rgba(243,129,129,.9);
+            color: #fff;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            width: 200px ;
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(252,227,138,.9);
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+
+        .erro {
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        Dream Builder 2
+    </header>
+    
+    <div class="blocoCadastro">
+        <main>
+            <center>
+                <div class="erro">
+                    <div class="alert alert-danger">
+                        <%= mensagem %>
+                    </div>
+                </div>
+
+                <form action="/salvar" method="post" class="form-cadastro">
+                    <label>Usuário:</label>
+                    <input type="text" class="form-control" name="login" />
+
+                    <label>Senha:</label>
+                    <input type="password" class="form-control" name="senha" />
+
+                    <input type="submit" value="Cadastrar" class="btn btn-primary">
+                </form>
+
+                <p class="texto-com-sombra">Já tem uma conta? <a href="/" class="btn btn-secondary">Login</a></p>
+            </center>
+        </main>
+    </div>
+</body>
+</html>

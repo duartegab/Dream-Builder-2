@@ -7,4 +7,6 @@ const router = express.Router();
 router.get("/", controllersDados.getAll);
 router.get("/:id", controllersDados.getById);
 
+router.post("/edicoes", controllersDados.edicoesListar);
+
 module.exports = router;

@@ -24,11 +24,11 @@ module.exports = {
 
 
 function getAllAdsM(callback){
-    conexao.query("select * from ads_manha ", callback)
+    conexao.query("select * from cursos Where nome_curso = 'ADS' And turno_curso = 'manha' ", callback)
 }
 
 function getByIdAdsM(codigo, callback){
-    conexao.query("Select * From ads_manha Where id_ads_manha = " + codigo, callback)
+    conexao.query("select * from cursos Where nome_curso = 'ADS' And turno_curso = 'manha' And idEdicao = " + codigo, callback)
 }
 
 
@@ -37,7 +37,7 @@ function getAllAdsN(callback){
 }
 
 function getByIdAdsN(codigo, callback){
-    conexao.query("Select * From ads_noite Where id_ads_noite = " + codigo, callback)
+    conexao.query("select * from cursos Where nome_curso = 'ADS' And turno_curso = 'noite' And idEdicao = " + codigo, callback)
 }
 
 
@@ -46,7 +46,7 @@ function getAllDsm(callback){
 }
 
 function getByIdDsm(codigo, callback){
-    conexao.query("Select * From dsm Where id_dsm = " + codigo, callback)
+    conexao.query("select * from cursos Where nome_curso = 'DSM' And turno_curso = 'manha' And idEdicao = " + codigo, callback)
 }
 
 
@@ -55,7 +55,7 @@ function getAllGe(callback){
 }
 
 function getByIdGe(codigo, callback){
-    conexao.query("Select * From ge Where id_ge = " + codigo, callback)
+    conexao.query("select * from cursos Where nome_curso = 'ADS' And turno_curso = 'manha' And idEdicao = " + codigo, callback)
 }
 
 
