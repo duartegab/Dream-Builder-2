@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= title %></title>
+    <link rel="icon" type="image/x-icon" href="/imagens/iconsolar.ico">
     <style>
         body {
             background-image: linear-gradient(rgba(243,129,129,.9), rgba(252,227,138,.9));
@@ -25,6 +26,7 @@
 
         header h3 {
             margin: 0;
+            text-shadow: 1px 1px 5px rgba(109, 109, 109, 0.7);
         }
 
         nav {
@@ -39,11 +41,12 @@
             background: rgba(243,129,129,.9);
             padding: 10px 20px;
             border-radius: 8px;
+            text-shadow: 1px 1px 5px rgba(109, 109, 109, 0.3);
             transition: 0.3s ease;
         }
 
         nav a:hover {
-            background: rgba(255, 255, 255, 0.8);
+            background: rgba(255, 255, 255, 0.315);
         }
 
         .container {
@@ -90,7 +93,7 @@
     <header>
         <h3>Gerenciador de Tarefas<br>Dream Builder 2</h3>
         <nav>
-            <a href="../../menu.html" target="_blank">Site Dream Builder 2</a>
+            <a href="https://projeto-dream-buider.netlify.app/" target="_blank">Site Dream Builder 2</a>
             <a href="/gerenciador">Gerenciador de Tarefas</a>
             <a href="/evolucao">Sua Evolução</a>
             <a href="/dados">Cursos e Edições</a>
@@ -103,6 +106,9 @@
             <h4>Sua Evolução</h4>
             <form action="/evolucao" method="get">
                 <input type="submit" value="Abrir Formulário">
+            </form><br>
+            <form action="https://calculadorafatec.gregmaster.com.br/calculadora.html" target="_blank" method="get">
+                <input type="submit" value="Abrir Calculadora">
             </form>
         </div>
 
