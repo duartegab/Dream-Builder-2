@@ -13,7 +13,6 @@ header {
     align-items: center;
     background-color: rgba(243,129,129,.9);
     height: 15vh;
-    width: 1500px;
     border-bottom: 5px solid white;
 }
 
@@ -64,7 +63,7 @@ legend {
 }
 
 table {
-    width: 1444px;
+    width: 945px;
     border-collapse: collapse;
     margin-top: 20px;
 }
