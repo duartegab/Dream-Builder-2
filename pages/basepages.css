@@ -345,10 +345,12 @@ to {
   .botoes {
     align-items: left;
     text-shadow: 1px 1px 1px #b4b4b4;
+    margin-right: 150px;
   }
 
   .botoes2 {
-    align-items: center;
+    align-items: left;
+    margin-left: -70px;
   }
 
   .botoes21 {
