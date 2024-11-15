@@ -1,22 +1,97 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dream Builder 2</title>
+    <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/x-icon" href="/imagens/iconbarco.ico">
-    <link rel="stylesheet" href="/login.css"> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 <body>
-    
+  <header class="main-header">
+    <div class="header-wrapper">
+      <div class="main-logo">Dream Builder 2</div>
+      <nav>
+        <ul class="main-menu">
+          <li><a href="pages/cronogramas.html">Cronogramas</a></li>
+          <li><a href="pages/desempenho.html">Desempenho</a></li>
+          <li><a href="pages/provas.html">Provas</a></li>
+          <li><a href="pages/redacoes.html">Redações</a></li>
+          <li><a href="pages/exercicios.html">Exercícios</a></li>
+          <li><a href="pages/pausa.html">Pausa</a></li>
+          <li><a href="#"><span class="fa fa-shopping-cart33"></span></a></li>
+          <li><a href="#"><span class="fa fa-search33"></span></a></li><br>
+        </ul><br><br><br>
 
-    <form>
-        <h3>Login</h3>
-        <input type="text" placeholder="Login" id="login">
-        <input type="password" placeholder="Senha" id="senha">
-        <input type="submit" onclick="logar(); return false">
-    </form>
-    <script src="/login.js"></script>
+      </nav>
+    </div>
+  </header>
+
+
+  <section id="section-1">
+    <div class="content-slider">
+      <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+      <input type="radio" id="banner2" class="sec-1-input" name="banner">
+      <input type="radio" id="banner3" class="sec-1-input" name="banner">
+      <input type="radio" id="banner4" class="sec-1-input" name="banner">
+
+      
+      <div class="slider">
+        <div id="top-banner-1" class="banner">
+          <div class="banner-inner-wrapper">
+            <br><br><br><br>
+            <h2>Analise</h2>
+            <h1>todos<br>os erros</h1>
+          </div>
+        </div>
+        <div id="top-banner-2" class="banner">
+          <div class="banner-inner-wrapper">
+            <br><br><br><br>
+            <h2>Estabeleça</h2>
+            <h1>métodos<br>melhores</h1>
+          </div>
+        </div>
+        <div id="top-banner-3" class="banner">
+          <div class="banner-inner-wrapper">
+            <br><br><br><br>
+            <h2>Pratique</h2>
+            <h1>sem<br>medo</h1>
+          </div>
+        </div>
+        <div id="top-banner-4" class="banner">
+          <div class="banner-inner-wrapper">
+            <br><br><br><br>
+            <h2>Alcance</h2>
+            <h1>novas metas<br>e resultados</h1>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="botoes2">
+      <a href="mailto:caroline.avelar@fatec.sp.gov.br" title"OutLook" class="icon-button" target="_blank"><img src="/pages/imagens/OUTLOOK.png" width="50" height="50"></a>
+      <a href="mailto:avelarrrcaroline@gmail.com" title"GMail" class="icon-button" target="_blank"><img src="/pages/imagens/GMAIL.png" width="50" height="50"></a>
+      <a href="https://www.linkedin.com/in/carolinesavelar/" title"LinkedIn" class="icon-button" target="_blank"><img src="/pages/imagens/LINKEDLN.png" width="50" height="50"></a>
+      <a href="https://github.com/CarolineAvelar" title"GitHub" class="icon-button" target="_blank"><img src="/pages/imagens/GITHUB.png" width="50" height="50"> || CHEGUE ATÉ A CAROL || </a>
+    </div>
+    <div class="botoes21">
+      <a href="mailto:gabriel.duarte17@fatec.sp.gov.br" title"OutLook" class="icon-button" target="_blank"> || CHEGUE ATÉ O GABS || <img src="/pages/imagens/OUTLOOK.png" width="50" height="50"></a>
+      <a href="mailto:gabrielgoncalvesduarte5@gmail.com" title"GMail" class="icon-button" target="_blank"><img src="/pages/imagens/GMAIL.png" width="50" height="50"></a>
+      <a href="https://www.instagram.com/softgabes/" title"Instagram" class="icon-button" target="_blank"><img src="/pages/imagens/INSTAGRAM.png" width="50" height="50"></a>
+      <a href="https://www.linkedin.com/in/gabriel-duarte-97aaa6283/" title"LinkedIn" class="icon-button" target="_blank"><img src="/pages/imagens/LINKEDLN.png" width="50" height="50"></a>
+      <a href="https://github.com/duartegab" title"GitHub" class="icon-button" target="_blank"><img src="/pages/imagens/GITHUB.png" width="50" height="50"></a>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
 </body>
+
+
+
 </html>
