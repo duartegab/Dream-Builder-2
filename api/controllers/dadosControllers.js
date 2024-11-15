@@ -7,6 +7,7 @@ module.exports = {
     geListar,
     gpiListar,
     grhListar,
+    getAll,
 }
 
 
@@ -90,6 +91,22 @@ function grhListar(req, res) {
         } else {
             res.render('dadosgrh.ejs', {
                 obj_cursos: resultado
+            })
+        }
+    })
+}
+
+
+
+function getAll(req, res) {
+    console.log("Controller Listar Ediçoes...")
+    dadosModels.getAll(function(erro, resultado){
+        console.log("Retorno Model Listar Edicoes...")
+        if(erro) {
+            throw erro
+        } else {
+            res.render('dadosedicoes.ejs', {
+                obj_edicao: resultado
             })
         }
     })

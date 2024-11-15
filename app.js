@@ -3,7 +3,7 @@ const app = express();
 
 const loginRoutes = require('./api/routes/loginRoutes');
 const dadosRoutes = require('./api/routes/dadosRoutes');
-// const cursosRoutes = require('./api/routes/cursosRoutes');
+const gerenciadorRoutes = require('./api/routes/gerenciadorRoutes');
 const contatoRoutes = require('./api/routes/contatoRoutes');
 const evolucaoRoutes = require('./api/routes/evolucaoRoutes');
 
@@ -24,7 +24,7 @@ const port = 3010;
 
 app.use("/", loginRoutes); 
 app.use("/dados", dadosRoutes);   
-// app.use("/cursos", cursosRoutes);
+app.use("/gerenciador", gerenciadorRoutes);
 app.use("/contato", contatoRoutes);
 app.use("/evolucao", evolucaoRoutes);
 

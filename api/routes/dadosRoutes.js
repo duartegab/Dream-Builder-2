@@ -4,8 +4,8 @@ const express = require('express');
 
 const router = express.Router();
 
-
-router.post("/", controllersDados.edicoesListar);
+router.get("/", controllersDados.getAll);
+router.post("/edicoes", controllersDados.edicoesListar);
 router.post("/ads", controllersDados.adsListar);
 router.post("/dsm", controllersDados.dsmListar);
 router.post("/ge", controllersDados.geListar);

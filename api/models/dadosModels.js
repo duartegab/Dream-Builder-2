@@ -9,7 +9,8 @@ module.exports = {
     listarDsm,
     listarGe,
     listarGpi,
-    listarGrh
+    listarGrh,
+    getAll,
 }
 
 
@@ -47,6 +48,12 @@ function listarGpi(callback) {
 
 function listarGrh(callback) {
     m_sql = 'select * from cursos Where nome_curso = "GRH"';
+
+    conexao.query(m_sql, callback)
+}
+
+function getAll(callback) {
+    m_sql = 'select * from edicao';
 
     conexao.query(m_sql, callback)
 }
