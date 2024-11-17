@@ -12,6 +12,7 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.21.1",
+    "msql": "^1.0.3",
     "mysql2": "^3.11.3",
     "nodemon": "^3.1.7"
   }

@@ -3,7 +3,7 @@ var database = "dreambuilder";
 
 var conexao = mysql.createConnection({
     user: 'root',
-    password: '13579',
+    password: 'fatec123*',
     host: 'localhost',
     port: 3306
 });
