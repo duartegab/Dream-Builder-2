@@ -139,7 +139,7 @@ Separei pra ti alguns prints dessa documentação, veja só:
 ![3](https://github.com/duartegab/Dream-Builder-2/blob/main/diagramauc.png)
 
 ### Elevator Pitch 🎞️
-Quer ver como esse Elevator Pitch funciona na prática? Clique em [Vídeo](https://youtu.be/tHEObuMiMG8).
+Quer ver como esse Elevator Pitch funciona na prática? Clique em [Vídeo](https://youtu.be/VSzCHJBV0cw).
 
 Para ver o material de apoio (Slides do Elevator Pitch), é só clicar aqui em [Slides](https://github.com/duartegab/Dream-Builder/blob/main/DREAM%20BUILDER%20-%20PITCH.pptx) e depois em View Raw.
 
