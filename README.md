@@ -265,11 +265,13 @@ Ao decorrer do site, colocamos vários canais, sites e recursos de referência n
 
 Para 'Construir Sonhos' de muitos vestibulandos, contamos com o apoio dos links abaixo, que nos ajudaram com ideias disponibilizadas, materiais de apoio e resolução de dúvidas:
 
-* [W3Schools](https://www.w3schools.com/) - Site usado para resolução de dúvidas e ideias para animações CSS.
-* [CodePen](https://codepen.io/) - Site usado para ideias de animações e interações CSS / JavaScript.
+* [W3Schools](https://www.w3schools.com/) - Site usado para resolução de dúvidas e ideias para interações.
+* [CodePen](https://codepen.io/) - Site usado para templates e ideias de animações (interações CSS / JavaScript).
 * [YouTube](https://www.youtube.com/) - Usamos alguns vídeos da plataforma para resolução de dúvidas e ideias para alguns elementos do site.
 * [GitHub](https://github.com/) - Usamos alguns repositórios da plataforma como base para ideias de alguns elementos do site.
-* [Canva](https://www.canva.com/) - Usamos o Canva para a ideia de alguns templates, como os Cronogramas e o Modelo de Negócio Canvas.
+* [Canva](https://www.canva.com/) - Usamos o Canva para a ideia de alguns templates, como o Modelo de Negócio Canvas.
+* [ChatGPT](https://chatgpt.com) - Usamos da AI para ideias e resolução de dúvidas.
+* [Copilot](https://copilot.microsoft.com/) - Usamos da AI para ideias e resolução de dúvidas.
 
 
 
