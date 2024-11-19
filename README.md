@@ -231,7 +231,7 @@ Tabelas e Códigos dos cursos, que foram selcionados acima:
 ## UX (User Experience) 🤩🎉
 Outro ponto fundamental do nosso projeto é saber a opnião de nossos vestibulandos, isso nos ajuda a entender se estamos indo na direção correta e como podemos melhorar e otimizar alguns processos. Com isso, a nossa Vestibulanda Talita já aproveitou para deixar o seu feedback após utilizar o 'Dream Builder 2', se liga:
 
-[Feedback](https://github.com/duartegab/Dream-Builder-2/blob/main/feedback.jpeg)
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/feedback.jpeg)
 
 
 
