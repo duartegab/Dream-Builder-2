@@ -129,13 +129,13 @@ Por fim, agregamos tudo isso no nosso conhecimento de Programação Orientada a 
 ### Prints 📷
 Separei pra ti alguns prints dessa documentação, veja só:
 
-Processo de Atividade dos Formulários do Gerenciador de Tarefas:
+-> Processo de Atividade dos Formulários do Gerenciador de Tarefas:
 ![1](https://github.com/duartegab/Dream-Builder-2/blob/main/bpmn.png)
 
-    Modelo de Negócio Canvas, visando os principais objetivos do site para o público externo:
+-> Modelo de Negócio Canvas, visando os principais objetivos do site para o público externo:
 ![2](https://github.com/duartegab/Dream-Builder-2/blob/main/canvas.jpeg)
 
-Diagrama de Casos de Uso, relacionando o sistema com os atores e inclusões / extensões (dependendo de cada UC):
+-> Diagrama de Casos de Uso, relacionando o sistema com os atores e inclusões / extensões (dependendo de cada UC):
 ![3](https://github.com/duartegab/Dream-Builder-2/blob/main/diagramauc.png)
 
 ### Elevator Pitch 🎞️
