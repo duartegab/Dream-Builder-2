@@ -4,7 +4,7 @@ Para esse projeto integrador, iremos continuar 'Contruindo os Sonhos' dos vestib
 
 
 ## Instruções para acessar o projeto 🖥️
-(https://github.com/duartegab/Dream-Builder-2/blob/main/Dream-Builder-2)
+(https://github.com/duartegab/Dream-Builder-2/blob/main/Dream-Builder-2/api)
 
 
 
