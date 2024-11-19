@@ -16,13 +16,12 @@ npm install express (para ativar as bibliotecas principais do Node.js)
 
 Depois, verifique se existe esse trecho de código em seu arquivo package.json:
 
+```json
   "scripts": {
-  
     "test": "echo \"Error: no test specified\" && exit 1",
-    
-    "start": "nodemon node app.js"
-    
+    "start": "nodemon node app.js"  
   },
+```
 
 
 Se sim, agora continue com os comandos:
