@@ -4,7 +4,7 @@ Para esse projeto integrador, iremos continuar 'Contruindo os Sonhos' dos vestib
 
 
 ## Instruções para acessar o projeto 🖥️
-Para poder ter o acesso ao projeto, é necessário copiar os itens da psta [Dream Builder 2](https://github.com/duartegab/Dream-Builder-2/blob/main/)
+Para poder ter o acesso ao projeto, é necessário copiar os itens da pasta [Dream Builder 2](https://github.com/duartegab/Dream-Builder-2/blob/main/Dream-Builder-2/)
 
 
 
