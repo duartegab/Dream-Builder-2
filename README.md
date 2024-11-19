@@ -120,7 +120,7 @@ Página voltada para o Descanso do Usuário:
 A disciplina de Engenharia de Software 2 também foi fundamental para que o nosso projeto desse continuidade. Com ela, aprofundamos melhor os conceitos de Desenvolvimento Ágil e Processos de Software, BPMN, UML e Diagrama de Classes baseado em POO, nos fazendo crescer enquanto Gerenciador de Projetos. 
 Sendo assim, realizamos o nosso projeto baseado no Modelo Incremental, podendo através dessas 3 entregas, ampliar nossos conhecimentos e agregar mais valor ao mesmo.
 
-Ao dar um bom ínicio em nossa entrega incremental (dando viabilidade e levantando e elicitando requisitos), entendemos o nosso público final e como podíamos resolver seus problemas da melhor forma. Começamos então criando os processos de atividade principais do projeto (BPMN) e depois com RF, RNF e RN levantadas, entender as funcionalidades com os processos de atividade para criar nossos Casos de Uso. 
+Ao dar um bom ínicio em nossa entrega incremental (dando viabilidade, levantando e elicitando requisitos), entendemos o nosso público final e como podíamos resolver seus problemas da melhor forma. Começamos então criando os processos de atividade principais do projeto (BPMN) e depois, com os RF, RNF e RN levantados, conseguir entender as funcionalidades junto com os processos de atividade, para enfim criar nossos Casos de Uso. 
 
 Assim, em nossa segunda entrega, conseguimos detalhar cada processo de atividade que acontecia baseado nos requisitos. Gerando nossa prototipação das telas, que tem como base todos os acontecimentos, de cada utilidade do projeto. Podendo também entender a complexidade entre os UC's como um todo, relacionando os atores, extensões e inclusões em todo o sistema.
 
@@ -156,7 +156,7 @@ Por fim, também tivemos a disciplina de Banco de Dados Relacional ao longo do S
 
 No ínicio do Semestre, revisamos inúmeros conceitos de entidades, atributos, relacionamentos e cardinalidades. Outro conceito abordado foi a transição para o modelo lógico, incluindo valores como VARCHAR, DECIMAL, INT e etc. Além dos trabalhos práticos realizados, entendemos como essas relações são fundamentais para iniciar no banco de dados físico.
 
-Assim podemos ampliar nossas consultas, usando WHERE, AND ou OR, e também usando os conceitos de chave primária e estrangeira. Tudo isso foi necessário para saber utilizar recursos como INNER JOIN para buscar dados num local específico e COUNT para realizar contagens quando preciso. Atualmente, fazemos uso da VIEW para realizar consultas distintas e do ORDER BY para ordenar dados de acordo com nossas necessidades!
+Assim podemos ampliar nossas consultas, usando WHERE, AND ou OR, e também usando os conceitos de chave primária e estrangeira. Tudo isso foi necessário para saber navegar no modelo físico, utilizando os recursos específicos da linguagem e realizando boas práticas de consulta!
 
 ### Consultando 👀
 Se você quer ver essas consultas na prática, veja o que preparei pra você!:
@@ -190,7 +190,7 @@ function salvar(dados, callback) {
 Consulta do Formulário do código acima:
 ![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/formulario.gif)
 
-Função utilizando Banco de Dados para salvar selecionar os dados dos cursos:
+Função utilizando Banco de Dados para selecionar os dados dos cursos:
 ```js
 function listarAds(callback) {
     m_sql = 'select * from cursos Where nome_curso = "ADS"';
