@@ -116,22 +116,26 @@ Página voltada para o Descanso do Usuário:
 
 
 
-## Dream-Builder na Engenharia de Software 📋⚓
-A Engenharia de Software também foi fundamental para que o nosso projeto acontecesse. Com ela, entendemos todo o processo de relacionamento desenvolvedor - usuário, o que é fundamental para a trajetória de um Desenvolvedor de Software. 
-Sendo assim, analisamos o nosso projeto de maneira mais abrangente pois, além de uma Página Web, o  nosso negócio é capaz de construir sonhos, para aqueles que sonham com o seu Ensino Superior.
+## Dream-Builder na Engenharia de Software 2📋
+A disciplina de Engenharia de Software 2 também foi fundamental para que o nosso projeto desse continuidade. Com ela, aprofundamos melhor os conceitos de Desenvolvimento Ágil e Processos de Software, BPMN, UML e Diagrama de Classes baseado em POO, nos fazendo crescer enquanto Gerenciador de Projetos. 
+Sendo assim, realizamos o nosso projeto baseado no Modelo Incremental, podendo através dessas 3 entregas, ampliar nossos conhecimentos e agregar mais valor ao mesmo.
 
-Contudo, aprendemos nesse Semestre sobre Projetos e Sistemas de TI (bem como os seus modelos de Processos). Também aprendemos sobre Regras de Negócio, Requisitos Funcionais e Não Funcionais, o Modelo Canvas e toda a Documentação de Software necessária para fazer o negócio sair do papel e se tornar um Software assertivo. Por fim, também aprendemos sobre o Elevator Pitch, também fundamental para nosso Projeto, através dele, entendemos os problemas, soluções e diferenciais que apresentamos no decorrer do mesmo.
+Ao dar um bom ínicio em nossa entrega incremental (dando viabilidade e levantando e elicitando requisitos), entendemos o nosso público final e como podíamos resolver seus problemas da melhor forma. Começamos então criando os processos de atividade principais do projeto (BPMN) e depois com RF, RNF e RN levantadas, entender as funcionalidade com o processo de atividade para criar nossos Casos de Uso. 
+
+Assim, em nossa segunda entrega, conseguimos detalhar cada processo de atividade que acontecia baseado nos requisitos. Gerando nossa prototipação das telas, que tem como base todos o acontecimento de cada utilidade do projeto. Podendo também entender a complexidade entre os UC's como um todo, relacionando os atores, extensões e inclusões no sistema como um todo.
+
+Por fim, agregamos tudo isso no nosso conhecimento de Programação Orientada a Objetos, que faz a transição de um mundo real para o mundo virtual, assim conseguindo documentar as principais funcionalidades, elementos e utilidades do site, bem como suas multiplicidades, relações de polimorfismo e herança.
 
 ### Prints 📷
-Separei pra ti alguns prints do site, veja só:
+Separei pra ti alguns prints dessa documentação, veja só:
 
-Gráfico com as Metas Esperadas de acertos nas Provas (durante o Cronograma):
+Processo de Atividade dos Formulários do Gerenciador de Tarefas:
 ![1](https://github.com/duartegab/Dream-Builder/blob/main/provasespecificas.png)
 
-Botões animados para acessar as Provas Antigas:
+Modelo de Negócio Canvas, visando os principais objetivos do site para o público externo:
 ![2](https://github.com/duartegab/Dream-Builder/blob/main/provasbotao.png)
 
-Botões animados para acessar nossas redes socias, com a Avaliação do Usuário acima:
+Diagrama de Casos de Uso, relacionando o sistema os atores e as inclusões / extensões, dependendo de cada UC:
 ![3](https://github.com/duartegab/Dream-Builder/blob/main/contatoredes.png)
 
 ### Elevator Pitch 🎞️
