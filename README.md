@@ -156,7 +156,7 @@ Por fim, também tivemos a disciplina de Banco de Dados Relacional ao longo do S
 
 No ínicio do Semestre, revisamos inúmeros conceitos de entidades, atributos, relacionamentos e cardinalidades. Outro conceito abordado foi a transição para o modelo lógico, incluindo valores como VARCHAR, DECIMAL, INT e etc. Além dos trabalhos práticos realizados, entendemos como essas relações são fundamentais para iniciar no banco de dados físico.
 
-Assim podemos ampliar nossas consultas, usando WHERE, AND or OR, e também usando os conceitos de chave primária e estrangeira. Tudo isso foi necessário para saber utilizar recursos como INNER JOIN para buscar dados num local específico, COUNT para realizar contagens quando preciso. Atualmente, fazemos uso da VIEW para realizar consultas distintas e do ORDER BY para ordenar dados de acordo com nossas necessidades!
+Assim podemos ampliar nossas consultas, usando WHERE, AND ou OR, e também usando os conceitos de chave primária e estrangeira. Tudo isso foi necessário para saber utilizar recursos como INNER JOIN para buscar dados num local específico e COUNT para realizar contagens quando preciso. Atualmente, fazemos uso da VIEW para realizar consultas distintas e do ORDER BY para ordenar dados de acordo com nossas necessidades!
 
 ### Consultando 👀
 Se você quer ver essas consultas na prática, veja o que preparei pra você!:
