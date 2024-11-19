@@ -161,6 +161,9 @@ Assim podemos ampliar nossas consultas, usando WHERE, AND or OR, e também usand
 ### Consultando 👀
 Se você quer ver essas consultas na prática, veja o que preparei pra você!:
 
+Diagrama Entidade - Relacionamento do Projeto:
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/DER.png)
+
 Função utilizando Banco de Dados para salvar os dados do formulário:
 ```js
 function salvar(dados, callback) {
@@ -183,22 +186,45 @@ function salvar(dados, callback) {
     conexao.query(query, valores, callback);
 }
 ```
-![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/login-cadastro.gif)
 
-Formulário de Acompanhamento de Evolução:
-![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/evolucao.gif)
+Consulta do Formulário do código acima:
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/formulario.gif)
 
-Tabela de Consulta das Edições do Vestibular:
-![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/edicao.gif)
+Função utilizando Banco de Dados para salvar selecionar os dados dos cursos:
+```js
+function listarAds(callback) {
+    m_sql = 'select * from cursos Where nome_curso = "ADS"';
 
-Direcionamento ao Menu Inical do Site do Projeto:
-![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/menu.gif)
+    conexao.query(m_sql, callback)
+}
 
-Página voltada para Cronogramas Específicos:
-![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/cronograma.gif)
+function listarDsm(callback) {
+    m_sql = 'select * from cursos Where nome_curso = "DSM"';
 
-Página voltada para o Descanso do Usuário:
-![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/pausa.gif)
+    conexao.query(m_sql, callback)
+}
+
+function listarGe(callback) {
+    m_sql = 'select * from cursos Where nome_curso = "GE"';
+
+    conexao.query(m_sql, callback)
+}
+
+function listarGpi(callback) {
+    m_sql = 'select * from cursos Where nome_curso = "GPI"';
+
+    conexao.query(m_sql, callback)
+}
+
+function listarGrh(callback) {
+    m_sql = 'select * from cursos Where nome_curso = "GRH"';
+
+    conexao.query(m_sql, callback)
+}
+```
+
+Tabelas e Códigos dos cursos, que foram selcionados acima:
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/cursos.gif)
 
 
 
