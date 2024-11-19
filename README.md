@@ -92,10 +92,10 @@ Aproveite a experiência!
 
 
 
-### Gifs 👀
+### Gifs 🎥
 Se você quer ver algumas partes do site, se liga nos gifs que preparei pra você!
 
-Procoesso de Cadastro e Login no Sistema:
+Processo de Cadastro e Login no Sistema:
 ![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/login-cadastro.gif)
 
 Formulário de Acompanhamento de Evolução:
@@ -139,56 +139,66 @@ Separei pra ti alguns prints dessa documentação, veja só:
 ![3](https://github.com/duartegab/Dream-Builder-2/blob/main/diagramauc.png)
 
 ### Elevator Pitch 🎞️
+
+Elevator Pitch, é uma metodologia usada para levantar os principais pontos do projeto (Problemas, Soluções e Diferenciais)...
+
 Quer ver como esse Elevator Pitch funciona na prática? Clique em [Vídeo](https://youtu.be/VSzCHJBV0cw).
 
-Para ver o material de apoio (Slides do Elevator Pitch), é só clicar aqui em [Slides](https://github.com/duartegab/Dream-Builder/blob/main/DREAM%20BUILDER%20-%20PITCH.pptx) e depois em View Raw.
+Para ver o material de apoio (Slides do Elevator Pitch), é só clicar aqui em [Slides](https://github.com/duartegab/Dream-Builder-2/blob/main/DREAM%20BUILDER%20-%20PITCH1.pptx) e depois em View Raw.
 
-### Documento RUF 🗃️
-Se você também ficou interessado em como Documentar o seu próprio Software, é só clicar nos [RUF](https://github.com/duartegab/Dream-Builder/blob/main/Dream%20Buider-PI.doc) e depois em View Raw.
-
-
-
-## Dream-Builder no Design Digital 🖱️📱
-Por fim, também tivemos a disciplina de Design Digital ao longo do Semestre. Ela foi essencial para o nosso projeto, com ela afloramos toda a nossa criatividade, além de entender diversos aspectos essenciais que fazem de um Desenvolvedor um Designer para suas próprias projeções.
-
-No ínicio do Semestre, aprendemos inúmeros conceitos de luz, sombra e texturas. Outro conceito abordado foi a Psicologia das Cores. Além dos trabalhos práticos realizados, entendemos como essas relações são fundamentais para harmonizar qualquer elemento digital.
-Também aprendemos sobre Vetorização e Logos, ela foi essencial para criarmos nosso mascote (Bob), através da mescla de linhas e formas.
-Por fim, aprendemos sobre dimensão e proporção de telas. Essa proporção foi a âncora para tirar o projeto do papel e iniciarmos nele de fato!
-
-### Criação da Logo / Bob 🐻‍❄️
-Oie, antes de me tornar um mascote, já fui uma logo e um vetor, sabia? Se liga nas imagens abaixo:
-![LOGO](https://github.com/duartegab/Dream-Builder/blob/main/urso2.svg)
-![VETOR](https://github.com/duartegab/Dream-Builder/blob/main/urso1.svg)
+### Documento RUF 📝
+Se você também ficou interessado em como Documentar o seu próprio Software, é só clicar nos [RUF](https://github.com/duartegab/Dream-Builder-2/blob/main/Documentação%20Final%20-%20Dream%20Builder%202.docx) e depois em View Raw.
 
 
-### Low-fi | High-fi 📝
-Quer saber como dimensionar seus rascunhos e telas do site? Só clicar em [Figma](https://www.figma.com/design/J4WIfPUStwMm0E4vVluFf0/PI?node-id=0-1&t=xKOdq9LGV1Osl5Kg-1).
 
-### Paleta de Cores 🎨
-Você sabia que a definição de cores é fundamental para a criação de um site?
-Entenda o nosso propósito através de nossas cores:
+## Dream-Builder no Banco de Dados Relacional 🗃️
+Por fim, também tivemos a disciplina de Banco de Dados Relacional ao longo do Semestre. Ela foi essencial para o nosso projeto, com ela aprofundados todo o nosso cohecimento na área, indo desde uma boa modelagem (criando Diagramas de Entidade-Relacionamento) até conhecimentos específicos na linguagem MySql.
 
-As cores desempenham um papel significativo no ambiente de estudo, influenciando o foco, a produtividade e o bem-estar. Aqui está a relação de algumas cores específicas:
+No ínicio do Semestre, revisamos inúmeros conceitos de entidades, atributos, relacionamentos e cardinalidades. Outro conceito abordado foi a transição para o modelo lógico, incluindo valores como VARCHAR, DECIMAL, INT e etc. Além dos trabalhos práticos realizados, entendemos como essas relações são fundamentais para iniciar no banco de dados físico.
 
-![PALETA](https://github.com/duartegab/Dream-Builder/blob/main/paleta0.png)
+Assim podemos ampliar nossas consultas, usando WHERE, AND or OR, e também usando os conceitos de chave primária e estrangeira. Tudo isso foi necessário para saber utilizar recursos como INNER JOIN para buscar dados num local específico, COUNT para realizar contagens quando preciso. Atualmente, fazemos uso da VIEW para realizar consultas distintas e do ORDER BY para ordenar dados de acordo com nossas necessidades!
 
-<br>
+### Consultando 👀
+Se você quer ver essas consultas na prática, veja o que preparei pra você!:
 
-*Azul Marinho* - Conhecido por sua associação com calma e estabilidade, o azul marinho é excelente para áreas de estudo. Ele promove a tranquilidade mental e ajuda a manter a concentração por longos períodos.
+Função utilizando Banco de Dados para salvar os dados do formulário:
+```js
+function salvar(dados, callback) {
+    const query = `
+        INSERT INTO formulario (nome, idade, situacao, curso, feedback, pagina, dificuldade, experiencia, utilidade, recomendacao) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    `;
 
-*Bordô* - Esta cor rica e profunda, uma mistura de vermelho e roxo, pode incentivar a paixão e a energia. Ideal para as partes do Site que envolvem o Teste Vocacional, Apresentação dos Cursos e Cronogramas.
+    const valores = [
+        dados.nome,
+        dados.idade,
+        dados.situacao,
+        dados.curso,
+        dados.feedback,
+        dados.pagina,
+        dados.dificuldade,
+        dados.experiencia,
+        dados.utilidade,
+        dados.recomendacao
+    ];
+    conexao.query(query, valores, callback);
+}
+```
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/login-cadastro.gif)
 
-*Roxo Escuro* - Uma variação do roxo profundo com preto, esta cor pode transmitir um senso de luxo e introspecção. Em ambientes de estudo, pode ajudar a estimular a criatividade e a concentração profunda.
+Formulário de Acompanhamento de Evolução:
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/evolucao.gif)
 
-*Azul Petróleo* - Com uma mistura de azul e verde, essa cor traz uma sensação de equilíbrio e sofisticação. É ideal para espaços onde se precisa de foco e criatividade, sem causar estresse.
+Tabela de Consulta das Edições do Vestibular:
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/edicao.gif)
 
-*Branco Fumaça* - Uma tonalidade suave de branco acinzentado, o branco fumaça é perfeito para criar um ambiente limpo e organizado. Ele reflete a luz, tornando os espaços mais claros e, assim, ajudando a manter a mente alerta e focada.
+Direcionamento ao Menu Inical do Site do Projeto:
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/menu.gif)
 
-<br>
-Cada uma dessas cores pode ser utilizada estrategicamente em espaços de estudo para criar um ambiente que favoreça o foco, a produtividade e o bem-estar mental.
+Página voltada para Cronogramas Específicos:
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/cronograma.gif)
 
-
-![PALETA1](https://github.com/duartegab/Dream-Builder/blob/main/paleta1.png)
+Página voltada para o Descanso do Usuário:
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/pausa.gif)
 
 
 
