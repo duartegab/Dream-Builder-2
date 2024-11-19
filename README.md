@@ -277,23 +277,23 @@ Para 'Construir Sonhos' de muitos vestibulandos, contamos com o apoio dos links 
 
 ## Autores ✒️
 
-[Caroline Avelar](https://github.com/carolineavelar/) - Criação dos Jogos e Alarme no Site, Elaboração do Low-fi e High-Fi, Documentação, Elevator Pitch.
+[Caroline Avelar](https://github.com/carolineavelar/) - Criação dos Jogos e Alarme no Site, Ajuda na Documentação, Coleta de Feedback e Elevator Pitch.
 
-[Gabriel Duarte](https://github.com/duartegab/) - Estruturação do Site e das Páginas, Ajuda com as Telas, Logo, Vetor, Documentação, Elevator Pitch.
+[Gabriel Duarte](https://github.com/duartegab/) - Estruturação do Site e do Gerenciador de Tarefas, Criação do Back-End e da Base de Dados, Elaboração da Documentação e Elevator Pitch.
 
 
 
 ## 📄 Licença
 
-Este projeto está sob a licença [Gabriel Duarte](https://github.com/duartegab) - veja o arquivo [LICENSE.md](https://github.com/duartegab/Dream-Builder/blob/main/LICENSE) para detalhes.
+Este projeto está sob a licença [Gabriel Duarte](https://github.com/duartegab) - veja o arquivo [LICENSE.md](https://github.com/duartegab/Dream-Builder-2/blob/main/LICENSE) para detalhes.
 
 
 
 ## 🎁 Gratidão
 * Agradeço particulamente a minha amiga [Caroline Avelar](https://github.com/carolineavelar/) pela parceria e acreditar no Projeto desde o início, que nossa parceria sempre prevaleça! 🥰
-* Desde já conto o apoio de vocês e peço que nos sigam, para acompanharem junto conosco nossos Projetos Realizados no 2º Semestre em diante! 📢;
-* Agradeçemos aos nossos professores Márcio Funes, Fernando Martins e Leonardo Raiz que nos instruíram com o projeto; 🦾
-* Agradeçemos também a todos os parceiros do W3 Schools, Canva, YouTube, CodePen e GitHub, que forneceram ideias e materiais de apoio para conseguirmos levantar esse projeto do zero; 🗻
+* Desde já conto o apoio de vocês e peço que nos sigam, para acompanharem junto conosco nossos Projetos Realizados no 3º Semestre em diante! 📢;
+* Agradeçemos aos nossos professores Antônio Clementino, Jorge Hattori e Mateus Rossato que nos instruíram com o projeto; 🦾
+* Agradeçemos também a todos os parceiros do W3 Schools, ChatGPT, Copilot, Canva, YouTube, CodePen e GitHub, que forneceram ideias e materiais de apoio para conseguirmos levantar esse projeto do zero; 🗻
 * Também agradeçemos a nossa família, amigos, que nos motivam a cada dia mais para entrarmos no Ramo de Tecnologia da Informação, com o objetivo de construirmos uma carreira estável, sendo profissionais íntegros e inovadores. 🫂
 
 ---
