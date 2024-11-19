@@ -14,6 +14,7 @@ npm init (caso ainda não instalou o Node.js em seu VSCode)
 npm install express (para ativar as bibliotecas principais do Node.js)
 
 
+
 Depois, verifique se existe esse trecho de código em seu arquivo package.json:
 
 ```json
@@ -22,6 +23,7 @@ Depois, verifique se existe esse trecho de código em seu arquivo package.json:
     "start": "nodemon node app.js"  
   },
 ```
+
 
 
 Se sim, agora continue com os comandos:
