@@ -66,16 +66,19 @@ Assim, você conseguirá rodar todo o projeto em seu servidor local =)
 
 
 
-## Dream-Builder no Desenvolvimento Web 📂
-Durante nosso 1º Semestre, tivemos a formação necessária para começarmos de fato nossa jornada como desenvolvedores. Aprendemos tudo e mais um pouco sobre a linguagem HTML e CSS, além de realizar trabalhos práticos, ficando assim preparados para os desafios do mercado. 
-O Desenvolvimento Web foi fundamental no 'Dream Builder' pois, por conta dele, colocamos o nosso site de pé e usamos toda as linguagens a fundo. 
+## Dream-Builder-2 no Desenvolvimento Web 2 📂
+Durante nosso 2º Semestre, tivemos as instruções necessárias para aprimorarmos a nossa jornada como desenvolvedores web. Aprendemos todos os conceitos necessários de rotas, callback, conexão entre servidor e requisitante, back-end e sua ligação com o front-end e com o banco de dados. Além disso, realizamos muitos projetos e provas práticas, que nos deixou mais preparados para os desafios do mercado. 
 
-No HTML, além de estruturar todas as páginas, usamos muitos iframes e arquivos de mídia para melhorar a experiência do usuário. 
-No CSS, além de deixar tudo harmônico e colorido, fizemos algumas animações e interações com a própria linguagem. 
-Por fim, utilizamos recursos simples de JavaScript, para animações e resultados mais otimizados para o próprio vestibulando!
+A disciplina de Desenvolvimento Web 2 foi crucial no 'Dream Builder 2' pois, por conta dele, conseguirmos criar nosso gerenciador, que conecta tanto os dados de nossa base, como o site do front-end, além da criação de rotas interativas e dinâmicas. 
+
+Também aprendemos o bom uso de 3 linguagens cruciais para manter um bom back-end:
+
+No JavaScript, aprendemos usar suas funções e versatilidade para criar uma API completa, indo desde a elaboração das rotas e configuração de elementos estáticos, até funções de callback e gerenciamento de dados . 
+Com json, aprendemos manter variáveis de dados que podem ser executadas em nossas próprias rotas API (geralmente usado em projetos pequenos, com pouco volume de dados). 
+Por fim, utilizamos o EJS, para uma melhor ligação entre o back-end e o front-end, dando uma boa visão final para o usuário!
 
 ### Site 🚀
-Quer ver o resultado de todo esse aprendizado? Clique no [Site](https://projeto-dream-buider.netlify.app/). 
+Quer ver o resultado de todo esse aprendizado? Clique no [Site](localhost:3010) e dê o start em seu terminal. 
 
 Aproveite a experiência!
 
