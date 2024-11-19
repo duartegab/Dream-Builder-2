@@ -38,10 +38,21 @@ npm install ejs (para instalar as extensões da linguagem EJS)
 npm install mysql2 (para instalar as extensões do MySql)
 
 
-Agora, copie o conteúdo da [Base de Dados](https://github.com/duartegab/Dream-Builder-2/blob/main/baralho.gif). 
+Agora, copie o conteúdo da [Base de Dados](https://github.com/duartegab/Dream-Builder-2/blob/main/BASE%20DE%20DADOS%20-%20DREAMBUILDER2.sql) e cole em dentro de um novo arquivo em seu MySql. 
+
+Em seu arquivo, execute todos os comandos (desde a criação da base até a criação da última tabela)
 
 
+Por fim, em seu VSCode, vá ao arquivo [Configuração](https://github.com/duartegab/Dream-Builder-2/blob/main/api/config/conexao.js) e altere os dados da variável conexao de acordo com os seus dados. Exemplo:
 
+```sql
+var conexao = mysql.createConnection({
+    user: 'seuuser',
+    password: 'suasenha',
+    host: 'localhost',
+    port: 3306
+});
+```
 
 ## Dream-Builder no Desenvolvimento Web 📂
 Durante nosso 1º Semestre, tivemos a formação necessária para começarmos de fato nossa jornada como desenvolvedores. Aprendemos tudo e mais um pouco sobre a linguagem HTML e CSS, além de realizar trabalhos práticos, ficando assim preparados para os desafios do mercado. 
