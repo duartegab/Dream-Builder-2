@@ -58,6 +58,9 @@ Por fim:
 
 npm start (para rodar sua porta local)
 
+cole o seguinte endereço na barra de endereço do seu navegador:
+
+localhost:3010
 
 Assim, você conseguirá rodar todo o projeto em seu servidor local =)
 
