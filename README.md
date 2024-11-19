@@ -80,7 +80,13 @@ Por fim, utilizamos o EJS, para uma melhor ligação entre o back-end e o front-
 ### Site 🚀
 Quer ver o resultado de todo esse aprendizado? 
 
-Copie o endereço ```localhost:3010``` na barra de seu navegador e dê o start em seu terminal. 
+Copie o endereço 
+
+```
+localhost:3010
+```
+
+na barra de seu navegador e dê o start em seu terminal. 
 
 Aproveite a experiência!
 
