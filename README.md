@@ -104,7 +104,7 @@ Formulário de Acompanhamento de Evolução:
 Tabela de Consulta das Edições do Vestibular:
 ![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/edicao.gif)
 
-Direcionamento ao Menu Inical da Plataforma pra Vestibular:
+Direcionamento ao Menu Inical do Site do Projeto:
 ![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/menu.gif)
 
 Página voltada para Cronogramas Específicos:
