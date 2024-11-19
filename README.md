@@ -4,7 +4,37 @@ Para esse projeto integrador, iremos continuar 'Contruindo os Sonhos' dos vestib
 
 
 ## Instruções para acessar o projeto 🖥️
-Para poder ter o acesso ao projeto, é necessário copiar os itens da pasta [Dream Builder 2](https://github.com/duartegab/Dream-Builder-2/blob/main/api)
+Para poder ter o acesso ao projeto, é necessário ir ao início desse repositório [Dream Builder 2](https://github.com/duartegab/Dream-Builder-2/), ir em <> Code e depois em Download ZIP. Assim você consegue pegar todo o código local em uma pasta compactada.
+Abrindo a pasta que está dentro da pasta ZIP em seu VSCode, é necessário somente alguns comandos no terminal (para estar familiarizado com o Node.js):
+
+
+npm init (caso ainda não instalou o Node.js em seu VSCode)
+
+
+npm install express (para ativar as bibliotecas principais do Node.js)
+
+
+Depois, verifique se existe esse trecho de código em seu arquivo package.json:
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node app.js"
+  },
+
+
+Se sim, agora continue com os comandos:
+
+
+npm start (para inicializar o projeto)
+
+
+npm install ejs (para instalar as extensões da linguagem EJS)
+
+
+npm install mysql2 (para instalar as extensões do MySql)
+
+
+
 
 
 
