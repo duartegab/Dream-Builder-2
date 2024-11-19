@@ -78,7 +78,9 @@ Com json, aprendemos manter variáveis de dados que podem ser executadas em noss
 Por fim, utilizamos o EJS, para uma melhor ligação entre o back-end e o front-end, dando uma boa visão final para o usuário!
 
 ### Site 🚀
-Quer ver o resultado de todo esse aprendizado? Clique no [Site](localhost:3010) e dê o start em seu terminal. 
+Quer ver o resultado de todo esse aprendizado? 
+
+Copie o endereço ```localhost:3010``` na barra de seu navegador e dê o start em seu terminal. 
 
 Aproveite a experiência!
 
