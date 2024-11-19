@@ -43,7 +43,7 @@ Agora, copie o conteúdo da [Base de Dados](https://github.com/duartegab/Dream-B
 Em seu arquivo, execute todos os comandos (desde a criação da base até a criação da última tabela)
 
 
-Por fim, em seu VSCode, vá ao arquivo [Configuração](https://github.com/duartegab/Dream-Builder-2/blob/main/api/config/conexao.js) e altere os dados da variável conexao de acordo com os seus dados. Exemplo:
+Em seu VSCode, vá ao arquivo [conexao.js](https://github.com/duartegab/Dream-Builder-2/blob/main/api/config/conexao.js) e altere os dados da variável conexao de acordo com os seus dados. Exemplo:
 
 ```sql
 var conexao = mysql.createConnection({
@@ -53,6 +53,15 @@ var conexao = mysql.createConnection({
     port: 3306
 });
 ```
+
+Por fim:
+
+npm start (para rodar sua porta local)
+
+
+Assim, você conseguirá rodar todo o projeto em seu servidor local =)
+
+
 
 ## Dream-Builder no Desenvolvimento Web 📂
 Durante nosso 1º Semestre, tivemos a formação necessária para começarmos de fato nossa jornada como desenvolvedores. Aprendemos tudo e mais um pouco sobre a linguagem HTML e CSS, além de realizar trabalhos práticos, ficando assim preparados para os desafios do mercado. 
