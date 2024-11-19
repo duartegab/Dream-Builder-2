@@ -90,6 +90,38 @@ localhost:3010
 
 Aproveite a experiência!
 
+
+
+### Gifs 👀
+Se você quer ver algumas partes do site, se liga nos gifs que preparei pra você!
+
+Procoesso de Cadastro e Login no Sistema:
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/login-cadastro.gif)
+
+Formulário de Acompanhamento de Evolução:
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/evolucao.gif)
+
+Tabela de Consulta das Edições do Vestibular:
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/edicao.gif)
+
+Direcionamento ao Menu Inical da Plataforma pra Vestibular:
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/menu.gif)
+
+Página voltada para Cronogramas Específicos:
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/cronograma.gif)
+
+Página voltada para o Descanso do Usuário:
+![Gif](https://github.com/duartegab/Dream-Builder-2/blob/main/pausa.gif)
+
+
+
+
+## Dream-Builder na Engenharia de Software 📋⚓
+A Engenharia de Software também foi fundamental para que o nosso projeto acontecesse. Com ela, entendemos todo o processo de relacionamento desenvolvedor - usuário, o que é fundamental para a trajetória de um Desenvolvedor de Software. 
+Sendo assim, analisamos o nosso projeto de maneira mais abrangente pois, além de uma Página Web, o  nosso negócio é capaz de construir sonhos, para aqueles que sonham com o seu Ensino Superior.
+
+Contudo, aprendemos nesse Semestre sobre Projetos e Sistemas de TI (bem como os seus modelos de Processos). Também aprendemos sobre Regras de Negócio, Requisitos Funcionais e Não Funcionais, o Modelo Canvas e toda a Documentação de Software necessária para fazer o negócio sair do papel e se tornar um Software assertivo. Por fim, também aprendemos sobre o Elevator Pitch, também fundamental para nosso Projeto, através dele, entendemos os problemas, soluções e diferenciais que apresentamos no decorrer do mesmo.
+
 ### Prints 📷
 Separei pra ti alguns prints do site, veja só:
 
@@ -101,42 +133,6 @@ Botões animados para acessar as Provas Antigas:
 
 Botões animados para acessar nossas redes socias, com a Avaliação do Usuário acima:
 ![3](https://github.com/duartegab/Dream-Builder/blob/main/contatoredes.png)
-
-### Gifs 👀
-Se você quer ver algumas partes do site, se liga nos gifs que preparei pra você!
-
-Menu Inicial, com o Bob e as falas aparecendo gradualmente:
-![Gif](https://github.com/duartegab/Dream-Builder/blob/main/menu%20inicial.gif)
-
-Biografia da Fatec, sendo escrita ao vivo:
-![Gif](https://github.com/duartegab/Dream-Builder/blob/main/texto%20fatec.gif)
-
-Explicando o curso através de um baralho interativo:
-![Gif](https://github.com/duartegab/Dream-Builder/blob/main/baralho.gif)
-
-Respondendo o Teste Vocacional, em Descobrindo seu Curso:
-![Gif](https://github.com/duartegab/Dream-Builder/blob/main/teste%20vocacional.gif)
-
-Alarme com o tempo em Relógio:
-![Gif](https://github.com/duartegab/Dream-Builder/blob/main/alarme.gif)
-
-Balões animados sendo links para videoaulas:
-![Gif](https://github.com/duartegab/Dream-Builder/blob/main/baloes.gif)
-
-Jogo de Quebra-Cabeça, no Pausa e Foco:
-![Gif](https://github.com/duartegab/Dream-Builder/blob/main/quebra%20cabeca.gif)
-
-
-
-
-
-
-
-## Dream-Builder na Engenharia de Software 📋⚓
-A Engenharia de Software também foi fundamental para que o nosso projeto acontecesse. Com ela, entendemos todo o processo de relacionamento desenvolvedor - usuário, o que é fundamental para a trajetória de um Desenvolvedor de Software. 
-Sendo assim, analisamos o nosso projeto de maneira mais abrangente pois, além de uma Página Web, o  nosso negócio é capaz de construir sonhos, para aqueles que sonham com o seu Ensino Superior.
-
-Contudo, aprendemos nesse Semestre sobre Projetos e Sistemas de TI (bem como os seus modelos de Processos). Também aprendemos sobre Regras de Negócio, Requisitos Funcionais e Não Funcionais, o Modelo Canvas e toda a Documentação de Software necessária para fazer o negócio sair do papel e se tornar um Software assertivo. Por fim, também aprendemos sobre o Elevator Pitch, também fundamental para nosso Projeto, através dele, entendemos os problemas, soluções e diferenciais que apresentamos no decorrer do mesmo.
 
 ### Elevator Pitch 🎞️
 Quer ver como esse Elevator Pitch funciona na prática? Clique em [Vídeo](https://youtu.be/tHEObuMiMG8).
