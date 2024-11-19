@@ -120,9 +120,9 @@ Página voltada para o Descanso do Usuário:
 A disciplina de Engenharia de Software 2 também foi fundamental para que o nosso projeto desse continuidade. Com ela, aprofundamos melhor os conceitos de Desenvolvimento Ágil e Processos de Software, BPMN, UML e Diagrama de Classes baseado em POO, nos fazendo crescer enquanto Gerenciador de Projetos. 
 Sendo assim, realizamos o nosso projeto baseado no Modelo Incremental, podendo através dessas 3 entregas, ampliar nossos conhecimentos e agregar mais valor ao mesmo.
 
-Ao dar um bom ínicio em nossa entrega incremental (dando viabilidade e levantando e elicitando requisitos), entendemos o nosso público final e como podíamos resolver seus problemas da melhor forma. Começamos então criando os processos de atividade principais do projeto (BPMN) e depois com RF, RNF e RN levantadas, entender as funcionalidade com o processo de atividade para criar nossos Casos de Uso. 
+Ao dar um bom ínicio em nossa entrega incremental (dando viabilidade e levantando e elicitando requisitos), entendemos o nosso público final e como podíamos resolver seus problemas da melhor forma. Começamos então criando os processos de atividade principais do projeto (BPMN) e depois com RF, RNF e RN levantadas, entender as funcionalidades com os processos de atividade para criar nossos Casos de Uso. 
 
-Assim, em nossa segunda entrega, conseguimos detalhar cada processo de atividade que acontecia baseado nos requisitos. Gerando nossa prototipação das telas, que tem como base todos o acontecimento de cada utilidade do projeto. Podendo também entender a complexidade entre os UC's como um todo, relacionando os atores, extensões e inclusões no sistema como um todo.
+Assim, em nossa segunda entrega, conseguimos detalhar cada processo de atividade que acontecia baseado nos requisitos. Gerando nossa prototipação das telas, que tem como base todos os acontecimentos, de cada utilidade do projeto. Podendo também entender a complexidade entre os UC's como um todo, relacionando os atores, extensões e inclusões em todo o sistema.
 
 Por fim, agregamos tudo isso no nosso conhecimento de Programação Orientada a Objetos, que faz a transição de um mundo real para o mundo virtual, assim conseguindo documentar as principais funcionalidades, elementos e utilidades do site, bem como suas multiplicidades, relações de polimorfismo e herança.
 
@@ -130,13 +130,13 @@ Por fim, agregamos tudo isso no nosso conhecimento de Programação Orientada a 
 Separei pra ti alguns prints dessa documentação, veja só:
 
 Processo de Atividade dos Formulários do Gerenciador de Tarefas:
-![1](https://github.com/duartegab/Dream-Builder/blob/main/provasespecificas.png)
+![1](https://github.com/duartegab/Dream-Builder-2/blob/main/bpmn.png)
 
 Modelo de Negócio Canvas, visando os principais objetivos do site para o público externo:
-![2](https://github.com/duartegab/Dream-Builder/blob/main/provasbotao.png)
+![2](https://github.com/duartegab/Dream-Builder-2/blob/main/canvas.png)
 
-Diagrama de Casos de Uso, relacionando o sistema os atores e as inclusões / extensões, dependendo de cada UC:
-![3](https://github.com/duartegab/Dream-Builder/blob/main/contatoredes.png)
+Diagrama de Casos de Uso, relacionando o sistema com os atores e inclusões / extensões (dependendo de cada UC):
+![3](https://github.com/duartegab/Dream-Builder-2/blob/main/diagramauc.png)
 
 ### Elevator Pitch 🎞️
 Quer ver como esse Elevator Pitch funciona na prática? Clique em [Vídeo](https://youtu.be/tHEObuMiMG8).
