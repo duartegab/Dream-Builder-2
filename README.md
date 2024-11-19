@@ -38,7 +38,7 @@ npm install ejs (para instalar as extensões da linguagem EJS)
 npm install mysql2 (para instalar as extensões do MySql)
 
 
-
+Agora, copie o conteúdo da [Base de Dados](https://github.com/duartegab/Dream-Builder-2/blob/main/baralho.gif). 
 
 
 
