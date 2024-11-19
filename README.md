@@ -239,19 +239,13 @@ Outro ponto fundamental do nosso projeto é saber a opnião de nossos vestibulan
 
 Ao decorrer do site, colocamos vários canais, sites e recursos de referência no site para engajar o estudo dos estudantes. Aqui abaixo, segue os links de cada material usado:
 
-* [Site Fatec](https://www.vestibularfatec.com.br/home/) - Usado como base para descobrir a história da Fatec, e a disponibilização das provas e gabaritos.
-* [Canal Fatec](https://www.youtube.com/@fatecfrancaoficial) - Utilizado para disponibilizar os depoimentos dos alunos e ex-alunos.
+* [Site Fatec](https://www.vestibularfatec.com.br/home/) - Usado como base para dados das Edições do Vestibular da Fatec e a disponibilização das provas e gabaritos.
 * [Site Objetivo](https://www.curso-objetivo.br/vestibular/resolucao-comentada/fatec.aspx) - Disponibilização das Correções Comentadas das Provas.
-* [Correcao Prova 9](https://www.youtube.com/live/bjoQow1KhbU?start=0) - Correção Comentada da Prova 9.
-* [Correcoes 10, 11, 12](https://www.youtube.com/@fatecpragente) - Disponibilização das Correções Comentadas das Provas 10, 11 e 12.
+* [Correcao 12](https://www.youtube.com/live/bjoQow1KhbU?start=0) - Correção Comentada da Prova 12.
+* [Correcoes 15](https://youtube.com/playlist?list=PL-aTklJEySEhYngLMpVmXS1u8nk2yunUx&si=H7FxzawetaXi54YL) - Correção Comentada da Prova 15.
+* [Correcoes 16](https://www.youtube.com/live/w31Ycl_D9JE?si=ax90qVsKDTseb0mQ) - Correção Comentada da Prova 16.
 * [Glau](https://app.glau.com.vc/) - Plataforma Glau (AI para Redação).
 * [ChatGPT](https://chatgpt.com) - ChatGPT, usado para a correção das Redações.
-* [Redação YT](https://youtube.com/playlist?list=PLPwuAOl5BHi8UTmce6l7kWwDVj2oMYPv2&si=Q8pchD-34KDucowj) - Playlist do YouTube disponibilizada para dicas de redação.
-* [Redação YT](https://youtube.com/playlist?list=PLIdiUrsoqaXNBauINdtVuxQqSqDvGKp53&si=_9TLqbKzu6l1lkAV) - Playlist do YouTube disponibilizada para dicas de redação.
-* [Redação IG](https://www.instagram.com/redacaonline/) - Instagram disponibilizado para dicas de redação.
-* [Redação IG](https://www.instagram.com/redaflix/) - Instagram disponibilizado para dicas de redação.
-* [Redação Site](https://blog.imaginie.com.br/redacao/) - Site disponibilizado para dicas de redação.
-* [Redação Site](https://mundoeducacao.uol.com.br/redacao) - Site disponibilizado para dicas de redação.
 * [RachaCuca](https://rachacuca.com.br/educacao/vestibular/) - Site disponibilizado para resolução de exercícios.
 * [Canal Mat](https://www.youtube.com/@MarcosAba) - Canal do YouTube disponibilizado para videoaulas de Matemática.
 * [Canal Port](https://www.youtube.com/@ProfessorNoslen) - Canal do YouTube disponibilizado para videoaulas de Português.
@@ -263,6 +257,7 @@ Ao decorrer do site, colocamos vários canais, sites e recursos de referência n
 * [Canal Ing](https://www.youtube.com/@PROFESSORKENNYOFICIAL) - Canal do YouTube disponibilizado para videoaulas de Inglês.
 * [Canal RL](https://www.youtube.com/@WagnerAguiar) - Canal do YouTube disponibilizado para videoaulas de Raciocínio Lógico.
 * [Canal Multi](https://www.youtube.com/@MalditaFcc) - Canal do YouTube disponibilizado para videoaulas Multidisciplinares.
+* [Calculadora Fatec](https://calculadorafatec.gregmaster.com.br/calculadora.html?) - Site usado para calcular Nota de Corte do Vestibular.
 
 
 
